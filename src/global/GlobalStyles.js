@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-
     /* 
         ///////////////////
             CSS RESET
@@ -26,7 +25,6 @@ const GlobalStyles = createGlobalStyle`
 
         *, html, body{
             font-family: 'Inter', sans-serif;
-            
         }
 
         /* Remove list styles (bullets/numbers) */
@@ -112,7 +110,7 @@ const GlobalStyles = createGlobalStyle`
 
     :root {
         --primary-color: #1E96FC;
-        --primary-disabled: rgba(50, 50, 50, 0.08);
+        --primary-disabled: rgba(50, 50, 50, 0.008);
         --yellow-color: #FFFA69;
         --yellow-dark-color: #FFF71B;
         --red-color: #FF5E67;
