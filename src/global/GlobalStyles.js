@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
+
     /* 
         ///////////////////
             CSS RESET
@@ -25,6 +26,7 @@ const GlobalStyles = createGlobalStyle`
 
         *, html, body{
             font-family: 'Inter', sans-serif;
+            
         }
 
         /* Remove list styles (bullets/numbers) */
