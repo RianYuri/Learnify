@@ -115,6 +115,7 @@ const GlobalStyles = createGlobalStyle`
         --yellow-dark-color: #FFF71B;
         --red-color: #FF5E67;
         --red-dark-color: #FE4B56;
+        --green-color: #37F589;
         --orange-color: #FF9B26;
         --light-blue-color: #65C8FF;
         --dark-color: #323232;
