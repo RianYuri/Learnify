@@ -107,7 +107,7 @@ const GlobalStyles = createGlobalStyle`
             box-sizing: border-box;
             outline: none;
         }
-        
+
     :root {
         --primary-color: #1E96FC;
         --primary-disabled: rgba(50, 50, 50, 0.08);
@@ -120,6 +120,8 @@ const GlobalStyles = createGlobalStyle`
         --dark-color: #323232;
         --light-color: #FFFFFF;
         --transparent-white-color: rgba(255, 255, 255, 0.45);
+        --font-texts: 'Open Sans', sans-serif;
+        --font-titles: 'Montserrat Alternates', sans-serif;
     }
 `;
 
