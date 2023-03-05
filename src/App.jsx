@@ -1,11 +1,13 @@
-import './App.css'
+import GlobalStyles from './global/GlobalStyles'
+import QuickStart from './pages/QuickStart'
 
 function App() {
 
   return (
-    <div className="App">
-     
-    </div>
+    <>
+      <GlobalStyles />
+      <QuickStart />  
+    </>
   )
 }
 

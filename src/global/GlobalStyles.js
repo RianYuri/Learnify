@@ -107,8 +107,7 @@ const GlobalStyles = createGlobalStyle`
             box-sizing: border-box;
             outline: none;
         }
-
-
+        
     :root {
         --primary-color: #1E96FC;
         --primary-disabled: rgba(50, 50, 50, 0.08);
