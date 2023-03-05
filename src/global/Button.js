@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const Button = styled.button`
+  transition: all .3s ease-in-out;
   padding: 1rem 2.8rem;
   background: ${props => props.bg ? props.bg : "var(--dark-color)"};
   color: ${props => props.color ? props.color : "var(--light-color)"};

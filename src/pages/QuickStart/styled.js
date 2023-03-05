@@ -108,21 +108,6 @@ const logoAnim = keyframes`
     }
 `;
 
-// const showNameForm = keyframes`
-//     0%{
-//         transform: translateY(0%);
-//     }
-//     80%{
-//         transform: translateY(0%);
-//     }
-//     98%{
-//         transform: translateY(100%);
-//     }
-//     100%{
-//         transform: translateY(100%);
-//     }
-// `;
-
 const Styles = styled.main`
     max-height: 100vh;
     overflow: hidden;
@@ -147,6 +132,7 @@ const Styles = styled.main`
             height: 100px;
             border-radius: 15%;
             background: var(--primary-disabled);
+            transition: all .3s ease-in-out;
             @media screen and (min-width: 768px){
                 width: 15rem;
                 height: 15rem;
@@ -298,8 +284,35 @@ const Styles = styled.main`
             }
         }
         .name__input-container{
-            display: flex;
-            flex-direction: column;
+            height: 100vh;
+            width: 100%;
+            padding: 6rem 0;
+            display: grid;
+            place-items: center;
+            gap: 1rem;
+            .name__input-logo{
+                max-width: 100px;
+            }
+            .name__input{
+                padding: .5rem;
+                border-bottom: 2px solid var(--dark-color);
+                font-size: 1.4rem;
+                width: 80%;
+                max-width: 320px;
+                max-height: 80px;
+            }
+            .emote__happy, .emote__normal{
+                width: 180px;
+                margin: 2.5rem 0 ;
+            }
+            button{
+                z-index: 2;
+                margin-top: 1rem;
+                width: 80%;
+                max-width: 320px;
+                max-height: 80px;
+                cursor: ${(prop) => prop.active && 'pointer'};
+            }
         }
     }
 `;
