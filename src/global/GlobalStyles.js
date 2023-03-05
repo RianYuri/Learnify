@@ -110,7 +110,7 @@ const GlobalStyles = createGlobalStyle`
 
     :root {
         --primary-color: #1E96FC;
-        --primary-disabled: rgba(50, 50, 50, 0.08);
+        --primary-disabled: rgba(50, 50, 50, 0.008);
         --yellow-color: #FFFA69;
         --yellow-dark-color: #FFF71B;
         --red-color: #FF5E67;
