@@ -123,6 +123,7 @@ const GlobalStyles = createGlobalStyle`
         --transparent-white-color: rgba(255, 255, 255, 0.45);
         --font-texts: 'Open Sans', sans-serif;
         --font-titles: 'Montserrat Alternates', sans-serif;
+        --backdrop-color: rgba(29, 29, 29, 0.76);
     }
 `;
 
