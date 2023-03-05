@@ -23,10 +23,6 @@ const GlobalStyles = createGlobalStyle`
             cursor: revert;
         }
 
-        *, html, body{
-            font-family: 'Inter', sans-serif;
-        }
-
         /* Remove list styles (bullets/numbers) */
         ol, ul, menu {
             list-style: none;
@@ -110,7 +106,7 @@ const GlobalStyles = createGlobalStyle`
 
     :root {
         --primary-color: #1E96FC;
-        --primary-disabled: rgba(50, 50, 50, 0.008);
+        --primary-disabled: rgba(50, 50, 50, 0.05);
         --yellow-color: #FFFA69;
         --yellow-dark-color: #FFF71B;
         --red-color: #FF5E67;
@@ -123,6 +119,10 @@ const GlobalStyles = createGlobalStyle`
         --transparent-white-color: rgba(255, 255, 255, 0.45);
         --font-texts: 'Open Sans', sans-serif;
         --font-titles: 'Montserrat Alternates', sans-serif;
+        --backdrop-color: rgba(29, 29, 29, 0.76);
+    }
+    *, html, body{
+            font-family: var(--font-texts);
     }
 `;
 
