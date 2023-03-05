@@ -17,6 +17,8 @@ const Styles = styled.main`
             background: var(--primary-disabled);
             &.type-1{
                 transform: rotate(45deg);
+                left: initial;
+                right: 0;
             }
         }
         
