@@ -5,6 +5,7 @@ import arrowIcon from '../../assets/imgs/arrow-icon.svg'
 import faceSmile from '../../assets/imgs/face-smile.svg'
 import faceSerious from '../../assets/imgs/face-serious.svg'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import Button from '../../global/Button.js'
 import { userDataContext } from '../../contexts/UserDataContext.jsx'
 
@@ -13,7 +14,8 @@ const QuickStart = () => {
         name: '',
         active: false
     })
-    const {userData, setUserData} = useContext(userDataContext)
+    const navigate = useNavigate()
+    const { userData, setUserData } = useContext(userDataContext)
     const handleChangeUserName = (e) => {
         setNameActive({
             name: e.target.value,
@@ -23,9 +25,8 @@ const QuickStart = () => {
     const handleSaveUserName = () => {
         setUserData({ userName: nameActive.name })
         localStorage.setItem('userName', nameActive.name)
-        nameActive.active ? window.location.href = '/home' : null
+        navigate('/home')
     }
-
   return (
     <Styles active={nameActive.active}>
         <section className='splash__animation'>
