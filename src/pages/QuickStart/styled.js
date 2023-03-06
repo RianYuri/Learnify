@@ -9,7 +9,7 @@ const squareAnim1 = keyframes`
         background: var(--primary-disabled);
         transform: rotate(115deg);
     }
-    100%{
+    100%{     
         background: var(--primary-color);
         transform: translate(-2vh, 2vw) rotate(130deg);
     }
