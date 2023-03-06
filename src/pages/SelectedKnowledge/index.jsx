@@ -35,9 +35,22 @@ const SelectedKnowledge = () => {
 
 
 
-if(categorySelected[0].category === "Matemática"){
-  console.log("is True")
+if(categorySelected[0].category === "Linguagens"){
+  console.log("is Linguagens")
 }
+else if(categorySelected[1].category === "Direito"){
+  console.log("is Direito")
+}
+else if(categorySelected[2].category === "Matemática"){
+  console.log("is Matemática")
+}
+else if(categorySelected[3].category === "Lógica de Programação"){
+  console.log("is Programação")
+}
+else if(categorySelected[4].category === "Conhecimento Geral"){
+  console.log("is Conhecimento Geral")
+}
+
 
   const navigate = useNavigate();
   return (
