@@ -1,6 +1,6 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
-
+import { useContext, useState } from "react";
+import { categorySelectedContext } from "../../contexts/CategorySelectedContext";
 //Import styled components
 import {
   ArticleQuestions,
@@ -31,8 +31,15 @@ import ArrowRight from "../../assets/imgs/arrow-right.svg";
 
 // Codigo
 const SelectedKnowledge = () => {
-const navigate = useNavigate()
+  const { categorySelected } = useContext(categorySelectedContext);
 
+
+
+if(categorySelected[0].category === "Matemática"){
+  console.log("is True")
+}
+
+  const navigate = useNavigate();
   return (
     <Main>
       <FaceImg src={FaceHappy} />
@@ -40,13 +47,11 @@ const navigate = useNavigate()
         {/* Primeira div pai */}
 
         <ArticleText>
-          <CategoryTitle>Linguagens</CategoryTitle>
+          <CategoryTitle>{categorySelected[0].category}</CategoryTitle>
           <CategorySummary>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-            interdum, odio et suscipit faucibus, sem orci rutrum mi.
+        { categorySelected[0].sobre}
           </CategorySummary>
         </ArticleText>
-
 
         {/* Segunda div pai */}
         <ContainerCategories>
@@ -57,25 +62,24 @@ const navigate = useNavigate()
               <Circles></Circles>
             </Line>
             <Types>
-              <TypeQuestion>Português</TypeQuestion>
-              <TypeQuestion>Inglês</TypeQuestion>
-              <TypeQuestion>Espanhol</TypeQuestion>
+              <TypeQuestion>{categorySelected[0].fieldStudy[0]}</TypeQuestion>
+              <TypeQuestion>{categorySelected[0].fieldStudy[1]}</TypeQuestion>
+              <TypeQuestion>{categorySelected[0].fieldStudy[2]}</TypeQuestion>
             </Types>
           </ArticleQuestions>
           <FigureCategory>
             <ImageCategory src={LanguageLearning} />
           </FigureCategory>
         </ContainerCategories>
-
-
+ {/* Terceira div pai */}
         <ButtonsContainer>
-          <BackButton>
+          <BackButton onClick={()=>navigate("/home") }>
             <ArrowIcon src={ArrowLeft} />
             Voltar
           </BackButton>
-          <StartTest onClick={()=>navigate('/questions')}>
+          <StartTest onClick={() => navigate("/questions")}>
             Iniciar teste
-            <ArrowIcon src={ArrowRight} topButton='true'/>
+            <ArrowIcon src={ArrowRight} topButton="true" />
           </StartTest>
         </ButtonsContainer>
       </Section>

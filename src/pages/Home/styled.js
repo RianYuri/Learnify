@@ -11,6 +11,7 @@ const Styles = styled.section`
     margin: 0 auto;
     height: 80vh;
     display: grid;
+
     place-items: center;
     grid-row-gap: 1rem;
     margin-top: 1rem;
