@@ -3,13 +3,13 @@ import styled from "styled-components";
 const Styles = styled.section`
   width: 100%;
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
 
   .home__container {
     position: relative;
     width: 95%;
     margin: 0 auto;
-    height: 100vh;
+    height: 80vh;
     display: grid;
     place-items: center;
     grid-row-gap: 1rem;
