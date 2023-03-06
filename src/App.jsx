@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import GlobalStyles from './global/GlobalStyles'
 import QuickStart from './pages/QuickStart'
-import { SelectedKnowledge } from './pages/SelectedKnowledge'
+import  SelectedKnowledge  from './pages/SelectedKnowledge'
 import Results from "./pages/Results"
 import Home from './pages/Home'
 import { CategorySelectedProvider } from './contexts/CategorySelectedContext'

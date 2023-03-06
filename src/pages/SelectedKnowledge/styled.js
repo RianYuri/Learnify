@@ -5,43 +5,210 @@ width: 100%;
 height: 100vh;
 background-color: var(--yellow-color);
 display: flex;
-justify-content: flex-end;
+justify-content: space-between;
 align-items: center;
 flex-direction: column;
 
 `
-export const Section = styled.section`
-display: flex;
-align-items: flex-end;
-width: 100%;
-height: 90%;
-
-`
-export const ArticleQuestion = styled.article`
-width: 100%;
-height: 73%;
-background-color: var(--light-color);
-border-radius: 204px 204px 0px 0px;
-position: absolute;
-display: flex;
-justify-content: center;
-align-items: center;
-`
 export const FaceImg = styled.img`
-width: 125.48px;
+width: 105.48px;
 height: 88px;
 background-repeat: no-repeat;
 background-size: cover;
-margin-top: 60px;
-`
-export const Category = styled.h4`
-width: 237px;
-height: 46px;
+margin-top: 50px;
 
+`
+export const Section = styled.section`
+width: 100%;
+height: 70%;
+background-color: var(--light-color);
+border-radius: 180px 180px 0px 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+@media (max-width: 768px) {
+border-radius: 40px 40px 0px 0px;
+    padding:40px 40px 0px 40px;
+    justify-content: flex-start;
+}
+`
+// Primeira article pai
+export const ArticleText = styled.article`
+width: 100%;
+height: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+@media (max-width: 768px) {
+align-items: flex-start;
+
+}
+`
+
+
+export const CategoryTitle = styled.h4`
+width: 410px;
 font-family:var(--font-titles);
 font-style: normal;
 font-weight: 700;
-font-size: 38px;
+font-size: 1.7rem;
 color:var(--dark-color);
+@media (max-width: 768px) {
+width: 310px;
+
+}
+`
+export const CategorySummary = styled.p`
+height: 52px;
+width: 30%;
+font-family: var(--font-texts);
+font-style: normal;
+font-weight: 500;
+font-size: 0.9rem;
+@media (max-width: 768px) {
+width: 110%;
+font-size:1rem ;
+}
+color: #000000;
+
+`
+export const ArticleQuestions = styled.article`
+height: 100%;
+display: flex;
+justify-content: center;
+gap: 30px;
+`
+
+// Segunda article Pai
+export const ContainerCategories = styled.div`
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 190px;
+@media (max-width: 768px) {
+    justify-content: flex-start;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+`
+
+export const Line = styled.div`
+width: 2px;
+height: 88.43px;
+background: #D9D9D9;
+margin: 0%;
+margin-top: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+gap: 30px;
+`
+export const Circles = styled.div`
+width: 10px;
+height: 16px;
+background: #D9D9D9;
+border-radius: 50%;
+`
+
+export const TypeQuestion = styled.p`
+font-family: var(--font-titles);
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+color: #000000;
+
+
+`
+export const Types = styled.div`
+height: 94.43px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+gap: 24px;
+
+`
+export const FigureCategory = styled.figure`
+justify-content: center;
+align-items: center;
+@media (max-width: 768px) {
+    position: absolute;
+    top: 240px;
+    right: 40px;
+}
+`
+export const ImageCategory = styled.img`
+width: 98px;
+height: 83px;
+@media (max-width: 768px) {
+    width: 88px;
+height: 73px;
+
+}
+`
+
+// Terceira article pai
+export const ButtonsContainer = styled.article`
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 20%;
+flex-direction: row;
+gap: 28px;
+padding-top: 60px;
+@media (max-width: 768px) {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 0%;
+    margin-top: 20px;
+    padding-top: 3%;
+}
+`
+
+export const BackButton = styled.button`
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 238px;
+height: 71px;
+font-family: var(--font-titles);
+font-weight: 700;
+font-size: 18px;
+`
+export const ArrowIcon =styled.img`
+width: 28px;
+height: 28px;
+background-repeat: no-repeat;
+background-size: cover;
+@media (max-width: 768px) {
+display: none;
+}
+`
+export const StartTest = styled.button`
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+width: 180px;
+height: 50px;
+background: #323232;
+border-radius: 10px;
+font-family: var(--font-titles);
+font-weight: 700;
+font-size: 15px;
+
+color: #FFFFFF;
+@media (max-width: 768px) {
+width: 280px;
+height: 60px;
+font-size: 18px;
+padding: 8%;
+}
 
 `
