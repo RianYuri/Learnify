@@ -70,10 +70,11 @@ const Styles = styled.main`
 		cursor: pointer;
 	}
 	.content .link p {
+		font-size: 20px;
 		text-decoration: underline;
 	}
 	.content .link img {
-		width: 20px;
+		width: 24px;
 	}
 
 	.container .buttons {

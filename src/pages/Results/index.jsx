@@ -1,6 +1,10 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import Styles from "./styled";
 import Button from "../../global/Button";
+
+import data from "../../services/data.json";
+import { questionDataContext } from "../../contexts/QuestionsDataContext";
+import { categorySelectedContext } from "../../contexts/CategorySelectedContext";
 
 import flag from "../../assets/imgs/flag.svg";
 import close from "../../assets/imgs/x-circle.svg";
@@ -12,16 +16,32 @@ import success from "../../assets/imgs/check-answer.svg";
 import wrong from "../../assets/imgs/x-circle-answer.svg";
 
 const Results = () => {
-	const [smile, setSmile] = useState(true);
+	const { categorySelected } = useContext(categorySelectedContext);
+	const { questions, userPoints } = useContext(questionDataContext);
+
 	const [showResults, setShowResults] = useState(false);
 
+	const letterOptions = ["A", "B", "C", "D"];
+	const smileConfig = { color: "", src: "", className: "" };
+	if (userPoints < 6) {
+		smileConfig.color = "red";
+		smileConfig.src = faceSad;
+		smileConfig.className = "sad";
+	} else {
+		smileConfig.color = "green";
+		smileConfig.src = faceSmile;
+		smileConfig.className = "happy";
+	}
+
 	return (
-		<Styles color={smile ? "green" : "red"}>
-			<img src={smile ? faceSmile : faceSad} alt="" className={`face ${smile ? "happy" : "sad"}`} />
+		<Styles color={smileConfig.color}>
+			<img src={smileConfig.src} alt="" className={`face ${smileConfig.className}`} />
 			<section className="container">
 				<section className="points">
 					<img src={flag} alt="flag icon" />
-					<h2>07/10</h2>
+					<h2>
+						{userPoints}/{questions.length}
+					</h2>
 				</section>
 
 				<section className="content">
@@ -30,7 +50,7 @@ const Results = () => {
 						<p>Ótima pontuação. Veja a correção do seu teste e pontos que você pode melhorar.</p>
 					</div>
 
-					<div className="link">
+					<div className="link" onClick={() => setShowResults(true)}>
 						<p>Ver detalhes do teste</p>
 						<img src={fileText} alt="" />
 					</div>
@@ -62,84 +82,48 @@ const Results = () => {
 						</section>
 
 						<ul className="questions">
-							<li className="question">
-								<section className="ask">
-									<div className="number">01</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-								</section>
-								<ul className="answers">
-									<li className="answer wrong">
-										<h3 className="option">A</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-										<img src={wrong} alt="Wrong icon" />
+							{questions.map(({ questionId, answer, correctAnswer }, index) => {
+								return (
+									<li key={index} className="question">
+										<section className="ask">
+											<div className="number">{(index + 1).toString().padStart(2, "0")}</div>
+											<p>
+												{
+													data["Linguagens"].find(({ id }) => {
+														return id === questionId;
+													}).question
+												}
+											</p>
+										</section>
+										<ul className="answers">
+											{data["Linguagens"][index].options.map((option, index) => {
+												if (answer === correctAnswer) {
+													return (
+														<li key={index} className={`answer ${answer === option ? "success" : ""}`}>
+															<h3 className="option">{letterOptions[index]}</h3>
+															<p>{option}</p>
+															{correctAnswer === option && <img src={success} alt="Success icon" />}
+														</li>
+													);
+												}
+												return (
+													<li
+														key={index}
+														className={`answer ${answer === option ? "wrong" : ""} ${
+															correctAnswer === option ? "success" : ""
+														}`}
+													>
+														<h3 className="option">{letterOptions[index]}</h3>
+														<p>{option}</p>
+														{answer === option && <img src={wrong} alt="Wrong icon" />}
+														{correctAnswer === option && <img src={success} alt="Success icon" />}
+													</li>
+												);
+											})}
+										</ul>
 									</li>
-									<li className="answer success">
-										<h3 className="option">B</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-										<img src={success} alt="Success icon" />
-									</li>
-									<li className="answer">
-										<h3 className="option">C</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-									</li>
-									<li className="answer">
-										<h3 className="option">D</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-									</li>
-								</ul>
-							</li>
-							<li className="question">
-								<section className="ask">
-									<div className="number">01</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-								</section>
-								<ul className="answers">
-									<li className="answer wrong">
-										<h3 className="option">A</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-										<img src={wrong} alt="Wrong icon" />
-									</li>
-									<li className="answer success">
-										<h3 className="option">B</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-										<img src={success} alt="Success icon" />
-									</li>
-									<li className="answer">
-										<h3 className="option">C</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-									</li>
-									<li className="answer">
-										<h3 className="option">D</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-									</li>
-								</ul>
-							</li>
-							<li className="question">
-								<section className="ask">
-									<div className="number">01</div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
-								</section>
-								<ul className="answers">
-									<li className="answer wrong">
-										<h3 className="option">A</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-										<img src={wrong} alt="Wrong icon" />
-									</li>
-									<li className="answer success">
-										<h3 className="option">B</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-										<img src={success} alt="Success icon" />
-									</li>
-									<li className="answer">
-										<h3 className="option">C</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-									</li>
-									<li className="answer">
-										<h3 className="option">D</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-									</li>
-								</ul>
-							</li>
+								);
+							})}
 						</ul>
 					</section>
 				</div>
