@@ -293,6 +293,20 @@ const Styles = styled.section`
       }
     }
     @media (max-width: 520px) {
+      .heading{
+        gap: .5rem;
+        .home__title{
+          font-size: 1.2rem;
+          width: 100%;
+          text-align: start;
+          align-self: flex-start;
+        }
+        .home__subtitle{
+          font-size: 1.1rem;
+            width: 100%;
+          text-align: start;
+        }
+      }
       .categories__grid {
         .illustration {
           height: 60px !important;
