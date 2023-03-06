@@ -29,14 +29,14 @@ const Home = () => {
   const handleSelectCategory = (category) => {
     try {
       const numItemsToSelect = 10;
-      for (let i = items.length - 1; i > 0; i--) {
+      for (let i = categoriesData[category].length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [categoriesData[category][i], categoriesData[category][j]] = [
           categoriesData[category][j],
           categoriesData[category][i],
         ];
       }
-      const selectedItems = categoriesData.slice(0, numItemsToSelect);
+      const selectedItems = categoriesData[category].slice(0, numItemsToSelect);
       setCategorySelected(selectedItems);
     } catch (error) {
       console.log(error);
