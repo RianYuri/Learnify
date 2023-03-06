@@ -106,11 +106,11 @@ const Styles = styled.section`
       grid-template-rows: repeat(2, 1fr);
       grid-column-gap: 1rem;
       grid-row-gap: 1rem;
+      align-self: flex-start;
       width: 100%;
       height: 100%;
       max-width: 768px;
       max-height: 340px;
-      margin-bottom: 5rem;
       div {
         border-radius: 12px;
         display: flex;
