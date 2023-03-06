@@ -68,7 +68,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 0.9rem;
 @media (max-width: 768px) {
-width: 110%;
+width: 100%;
 font-size:1rem ;
 }
 color: #000000;
@@ -135,9 +135,7 @@ export const FigureCategory = styled.figure`
 justify-content: center;
 align-items: center;
 @media (max-width: 768px) {
-    position: absolute;
-    top: 240px;
-    right: 40px;
+   
 }
 `
 export const ImageCategory = styled.img`
@@ -146,7 +144,9 @@ height: 83px;
 @media (max-width: 768px) {
     width: 88px;
 height: 73px;
-
+position: absolute;
+top: 33vh;
+right: 8vw;
 }
 `
 
@@ -186,7 +186,7 @@ height: 28px;
 background-repeat: no-repeat;
 background-size: cover;
 @media (max-width: 768px) {
-display: none;
+display: ${props => props.topButton && 'none'};
 }
 `
 export const StartTest = styled.button`

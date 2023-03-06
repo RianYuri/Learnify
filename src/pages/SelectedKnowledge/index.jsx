@@ -1,4 +1,6 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 //Import styled components
 import {
   ArticleQuestions,
@@ -29,6 +31,8 @@ import ArrowRight from "../../assets/imgs/arrow-right.svg";
 
 // Codigo
 const SelectedKnowledge = () => {
+const navigate = useNavigate()
+
   return (
     <Main>
       <FaceImg src={FaceHappy} />
@@ -69,9 +73,9 @@ const SelectedKnowledge = () => {
             <ArrowIcon src={ArrowLeft} />
             Voltar
           </BackButton>
-          <StartTest>
+          <StartTest onClick={()=>navigate('/questions')}>
             Iniciar teste
-            <ArrowIcon src={ArrowRight} />
+            <ArrowIcon src={ArrowRight} topButton='true'/>
           </StartTest>
         </ButtonsContainer>
       </Section>
