@@ -28,7 +28,7 @@ const { userData, setUserData } = useContext(userDataContext.userName !== '' ?
             const numItemsToSelect = 10;
             for (let i = items.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
-                [categoriesData[i], categoriesData[j]] = [categoriesData[j], categoriesData[i]];
+                [categoriesData[category][i], categoriesData[category][j]] = [categoriesData[category][j], categoriesData[category][i]];
                 }
                 const selectedItems = categoriesData.slice(0, numItemsToSelect);
                     setCategorySelected(selectedItems)
