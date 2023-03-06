@@ -13,18 +13,27 @@ import ArrowRightDisable from "../../assets/imgs/arrow-right-disable.svg"
 //import Components
 import QuestionAndAsk from "../QuestionAndAsk"; 
 import { useNavigate } from "react-router-dom";
+let proxQuestion = 1;
 const Questions = () => {
 const [progress,setProgress] = useState(10)
 const navigate = useNavigate()
-if(progress === 100){
+
+const clickNextQuestions = () =>{
+  setProgress(progress+10)
+  proxQuestion = proxQuestion + 1; 
+}
+
+if(progress === 110){
     navigate('/results')
 }
+
+
   return (
     <Main>
       <SectionComponents>
-        <QuestionAndAsk></QuestionAndAsk>
+        <QuestionAndAsk proxQuestion={proxQuestion}></QuestionAndAsk>
         <ArticleNext>
-            <NextPage onClick={()=> setProgress(progress+10)}>Próxima</NextPage >
+            <NextPage onClick={clickNextQuestions}>Próxima</NextPage >
     <ArrowDisable src={ArrowRightDisable} />
         </ArticleNext>
         <ProgressBarQuestions type="range" min="0" max="100" value="0" ProgressValue={progress}></ProgressBarQuestions>

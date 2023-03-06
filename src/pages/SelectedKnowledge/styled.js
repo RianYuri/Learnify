@@ -115,6 +115,7 @@ border-radius: 50%;
 
 export const TypeQuestion = styled.p`
 font-family: var(--font-titles);
+width: 100px;
 font-style: normal;
 font-weight: 800;
 font-size: 14px;

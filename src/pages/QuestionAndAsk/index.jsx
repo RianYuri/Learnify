@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import data from "../../services/data.json";
 
 import {
@@ -11,12 +11,19 @@ import {
   ArticleCD,
   NumberQuestion,
 } from "./styled";
-const QuestionAndAsk = () => {
+const QuestionAndAsk = ({proxQuestion}) => {
 
 const [QuestionId, setQuestionId] = useState(1)
+const [selectAsk, setSelectAsk] = useState();
 
+useEffect(() => {
+  
 
-  const [selectAsk, setSelectAsk] = useState();
+  setQuestionId(proxQuestion)
+
+}, [proxQuestion])
+console.log(proxQuestion, "esse e o proxQuestion")
+console.log(QuestionId)
   const QuestionText = data["Linguagens"].find(({id }) => {
     return id === QuestionId;
   });
