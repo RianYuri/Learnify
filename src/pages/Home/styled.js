@@ -12,6 +12,7 @@ const Styles = styled.section`
     height: 100vh;
     display: grid;
     place-items: center;
+    grid-row-gap: 1rem;
     margin-top: 1rem;
     .square {
       position: absolute;
@@ -85,6 +86,7 @@ const Styles = styled.section`
       gap: 1rem;
       justify-content: center;
       align-items: center;
+      align-self: flex-end;
       .home__title {
         font-size: 2rem;
         font-weight: 700;
