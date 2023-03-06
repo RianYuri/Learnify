@@ -83,20 +83,17 @@ const Results = () => {
 
 						<ul className="questions">
 							{questions.map(({ questionId, answer, correctAnswer }, index) => {
+								const questionData = data["Linguagens"].find(({ id }) => {
+									return id === questionId;
+								});
 								return (
 									<li key={index} className="question">
 										<section className="ask">
 											<div className="number">{(index + 1).toString().padStart(2, "0")}</div>
-											<p>
-												{
-													data["Linguagens"].find(({ id }) => {
-														return id === questionId;
-													}).question
-												}
-											</p>
+											<p>{questionData.question}</p>
 										</section>
 										<ul className="answers">
-											{data["Linguagens"][index].options.map((option, index) => {
+											{questionData.options.map((option, index) => {
 												if (answer === correctAnswer) {
 													return (
 														<li key={index} className={`answer ${answer === option ? "success" : ""}`}>

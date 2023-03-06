@@ -30,9 +30,9 @@ const questionsDummy = [
 		answer: "Libro",
 	},
 	{
-		questionId: 6,
-		correctAnswer: "Gato",
-		answer: "Gato",
+		questionId: 10,
+		correctAnswer: "Children",
+		answer: "Childen",
 	},
 	{
 		questionId: 7,
