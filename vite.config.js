@@ -68,23 +68,13 @@ export default defineConfig({
           }
         ],  
       },  
-      workbox: {
-        runtimeCaching: [
-          {
-            urlPattern: /^https:\/\/golearnify\.app\/img/,
-            handler: 'CacheFirst',
-            options: {
-              cacheName: 'images',
-              expiration: {
-                maxAgeSeconds: 60 * 60 * 24 * 7
-              },
-              cacheableResponse: {
-                statuses: [0, 200]
-              }
-            }
-          }
-        ]
-      }
+      includeAssets: [
+        {
+          from: 'src/assets/imgs',
+          to: 'assets/imgs',
+          glob: ['**/*']
+        },
+      ],
     }),
   ],
 
