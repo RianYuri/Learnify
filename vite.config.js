@@ -12,7 +12,7 @@ export default defineConfig({
       registerType: 'prompt',  
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],  
       manifest: {  
-  name: 'Learnify',  
+        name: 'Learnify',  
         short_name: 'Learnify',  
         description: 'Seu app de quiz para aprender e se divertir',  
         theme_color: '#ffffff',  
