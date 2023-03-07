@@ -21,7 +21,7 @@ const Results = () => {
 
 	const { userData } = useContext(userDataContext);
 	const { categorySelected } = useContext(categorySelectedContext);
-	const { questions, userPoints } = useContext(questionDataContext);
+	const { questions, userPoints, setQuestions } = useContext(questionDataContext);
 
 	const [showResults, setShowResults] = useState(false);
 
@@ -38,6 +38,11 @@ const Results = () => {
 		smileConfig.className = "sad";
 		smileConfig.message = "Você pode melhorar a sua pontuação! Veja a correção e tente refazer o seu teste.";
 	}
+
+	const handleNavigate = (path) => {
+		setQuestions([]);
+		navigate(path);
+	};
 
 	return (
 		<Styles color={smileConfig.color}>
@@ -66,11 +71,11 @@ const Results = () => {
 						bg="transparent"
 						color="#000"
 						border="var(--dark-color)"
-						onClick={() => navigate("/select-knowledge")}
+						onClick={() => handleNavigate("/select-knowledge")}
 					>
 						Refazer teste <img src={refresh} alt="" />
 					</Button>
-					<Button onClick={() => navigate("/home")}>Voltar para a tela inicial</Button>
+					<Button onClick={() => handleNavigate("/home")}>Voltar para a tela inicial</Button>
 				</section>
 			</section>
 
