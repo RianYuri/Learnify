@@ -711,7 +711,7 @@
 
 			"category": "Conhecimento Geral",
 			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+			"fieldStudy": ["Linguagem", "Matemática", "Logica "],
 			"language": "pt",
 			"question": "O que é um algoritmo?",
 			"options": [
@@ -727,7 +727,7 @@
 
 			"category": "Conhecimento Geral",
 			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+			"fieldStudy": ["Linguagem", "Matemática", "Logica "],
 			"language": "pt",
 			"question": "O que é um laço de repetição (loop) em programação?",
 			"options": [
