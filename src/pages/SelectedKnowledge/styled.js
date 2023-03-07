@@ -27,7 +27,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-@media (max-width: 768px) {
+@media (max-width: 813px) {
 border-radius: 40px 40px 0px 0px;
     padding:40px 40px 0px 40px;
     justify-content: flex-start;
@@ -41,7 +41,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-@media (max-width: 768px) {
+@media (max-width: 813px) {
 align-items: flex-start;
 
 }
@@ -55,8 +55,8 @@ font-style: normal;
 font-weight: 700;
 font-size: 1.7rem;
 color:var(--dark-color);
-@media (max-width: 768px) {
-width: 310px;
+@media (max-width: 813px) {
+width: 290px;
 
 }
 `
@@ -67,7 +67,7 @@ font-family: var(--font-texts);
 font-style: normal;
 font-weight: 500;
 font-size: 0.9rem;
-@media (max-width: 768px) {
+@media (max-width: 813px) {
 width: 100%;
 font-size:1rem ;
 }
@@ -88,10 +88,10 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 gap: 190px;
-@media (max-width: 768px) {
+@media (max-width: 813px) {
     justify-content: flex-start;
-    padding-top: 25px;
-    padding-bottom: 60px;
+    padding-top: 38px;
+    padding-bottom: 70px;
 }
 `
 
@@ -135,14 +135,14 @@ gap: 24px;
 export const FigureCategory = styled.figure`
 justify-content: center;
 align-items: center;
-@media (max-width: 768px) {
+@media (max-width: 813px) {
    
 }
 `
 export const ImageCategory = styled.img`
 width: 98px;
 height: 83px;
-@media (max-width: 768px) {
+@media (max-width: 813px) {
     width: 88px;
 height: 73px;
 position: absolute;
@@ -161,7 +161,7 @@ height: 20%;
 flex-direction: row;
 gap: 28px;
 padding-top: 60px;
-@media (max-width: 768px) {
+@media (max-width: 813px) {
     display: flex;
     flex-direction: column-reverse;
     height: 0%;
@@ -186,7 +186,7 @@ width: 28px;
 height: 28px;
 background-repeat: no-repeat;
 background-size: cover;
-@media (max-width: 768px) {
+@media (max-width: 813px) {
 display: ${props => props.topButton && 'none'};
 }
 `
@@ -205,7 +205,7 @@ font-weight: 700;
 font-size: 15px;
 
 color: #FFFFFF;
-@media (max-width: 768px) {
+@media (max-width: 813px) {
 width: 280px;
 height: 60px;
 font-size: 18px;

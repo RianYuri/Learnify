@@ -504,7 +504,7 @@
 	"Programação": [
 		{
 			"id": 1,
-			"category": "Lógica de Programação",
+			"category": "Programação",
 			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
 			"fieldStudy": ["Algebra", "Função", "Geometria"],
 			"language": "pt",
@@ -534,7 +534,7 @@
 		},
 		{
 			"id": 3,
-			"category": "Lógica de Programação",
+			"category": "Programação",
 			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
 			"fieldStudy": ["Algebra", "Função", "Geometria"],
 			"language": "pt",
@@ -549,7 +549,7 @@
 		},
 		{
 			"id": 4,
-			"category": "Lógica de Programação",
+			"category": "Programação",
 			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
 			"fieldStudy": ["Algebra", "Função", "Geometria"],
 			"language": "pt",
@@ -564,7 +564,7 @@
 		},
 		{
 			"id": 5,
-			"category": "Lógica de Programação",
+			"category": "Programação",
 			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
 			"fieldStudy": ["Algebra", "Função", "Geometria"],
 			"language": "pt",
@@ -579,7 +579,7 @@
 		},
 		{
 			"id": 6,
-			"category": "Lógica de Programação",
+			"category": "Programação",
 			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
 			"fieldStudy": ["Algebra", "Função", "Geometria"],
 			"language": "pt",
@@ -594,7 +594,7 @@
 		},
 		{
 			"id": 7,
-			"category": "Lógica de Programação",
+			"category": "Programação",
 			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
 			"fieldStudy": ["Algebra", "Função", "Geometria"],
 			"language": "pt",
@@ -604,7 +604,7 @@
 		},
 		{
 			"id": 8,
-			"category": "Lógica de Programação",
+			"category": "Programação",
 			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
 			"fieldStudy": ["Algebra", "Função", "Geometria"],
 
@@ -615,7 +615,7 @@
 		},
 		{
 			"id": 9,
-			"category": "Lógica de Programação",
+			"category": "Programação",
 			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
 			"fieldStudy": ["Algebra", "Função", "Geometria"],
 
@@ -626,7 +626,7 @@
 		},
 		{
 			"id": 10,
-			"category": "Lógica de Programação",
+			"category": "Programação",
 			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
 			"fieldStudy": ["Algebra", "Função", "Geometria"],
 			"language": "pt",
