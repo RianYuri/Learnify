@@ -1,5 +1,5 @@
-import { BrowserRouter, Routes, Route, useHistory } from 'react-router-dom'
-import { useEffect } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
 
 import GlobalStyles from './global/GlobalStyles'
 import QuickStart from './pages/QuickStart'
@@ -11,20 +11,6 @@ import { CategorySelectedProvider } from './contexts/CategorySelectedContext'
 
 
 function App() {
-  const history = useHistory();
-
-  useEffect(() => {
-    const unlisten = history.listen(() => {
-      if (history.action === 'POP') {
-        history.push('/');
-      }
-    });
-
-    return () => {
-      unlisten();
-    };
-  }, [history]);
-
   return (
       <BrowserRouter>
         <GlobalStyles/>
