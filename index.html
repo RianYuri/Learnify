@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR" translate="no">
   <head>
+    <meta name="theme-color" content="#1E96FC" />
+    <meta
+      name="description"
+      content="Seu app de quiz para aprender e se divertir"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.svg" />
+    <link rel="manifest" href="./manifest.json" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800&family=Mulish&display=swap" rel="stylesheet">
@@ -13,5 +20,16 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./serviceWorker.js').then((reg) => {
+            console.log('Worker Registered')
+          }).catch((err) => {
+            console.log('Error in service worker registration.')
+          })
+        })
+      }
+    </script>
   </body>
 </html>
