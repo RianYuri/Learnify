@@ -349,7 +349,7 @@ const Styles = styled.section`
     }
     @media (max-width: 375px) {
       width: 95%;
-      grid-row-gap: 1rem;
+      grid-row-gap: 2rem;
       .heading {
         .heading__logo {
           width: 60px;
