@@ -1,7 +1,7 @@
 {
-  "name": "Learnify",
-  "private": false,
-  "version": "1",
+  "name": "online-test-generator",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
