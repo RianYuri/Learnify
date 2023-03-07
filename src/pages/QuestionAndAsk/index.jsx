@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState,useContext } from "react";
 import data from "../../services/data.json";
+import { categorySelectedContext } from "../../contexts/CategorySelectedContext";
 
 import {
   ArticleQuestions,
@@ -13,8 +14,9 @@ import {
 } from "./styled";
 const QuestionAndAsk = ({proxQuestion}) => {
 
-const [QuestionId, setQuestionId] = useState(1)
+const [QuestionId, setQuestionId] = useState(0)
 const [selectAsk, setSelectAsk] = useState();
+  const { categorySelected } = useContext(categorySelectedContext);
 
 useEffect(() => {
   
@@ -22,19 +24,18 @@ useEffect(() => {
   setQuestionId(proxQuestion)
 
 }, [proxQuestion])
-console.log(proxQuestion, "esse e o proxQuestion")
-console.log(QuestionId)
-  const QuestionText = data["Linguagens"].find(({id }) => {
-    return id === QuestionId;
-  });
+ console.log(categorySelected)
   return (
     <ArticleQuestions>
-        <NumberQuestion> {QuestionText.id < 10
-            ? `0${QuestionText.id}`
-            : `${QuestionText.id}`
-          } </NumberQuestion>
+        <NumberQuestion>
+        {QuestionId < 10
+            ? `0${QuestionId}`
+            : `${QuestionId}`
+          } 
+        
+  </NumberQuestion>
 
-      <Question>{QuestionText.question}</Question>
+      <Question>{categorySelected[QuestionId].question}</Question>
       <ArticleAB>
         <AnswersButton
           topButton={selectAsk === 0 ? true : false}
@@ -42,7 +43,7 @@ console.log(QuestionId)
         >
           <ABCD>A</ABCD>
           <AnswersText>
-          {QuestionText.options[0]}
+          {categorySelected[QuestionId].options[0]}
           </AnswersText>
         </AnswersButton>
         <AnswersButton
@@ -51,7 +52,7 @@ console.log(QuestionId)
         >
           <ABCD>B</ABCD>
           <AnswersText>
-          {QuestionText.options[1]}
+          {categorySelected[QuestionId].options[1]}
           </AnswersText>
         </AnswersButton>
       </ArticleAB>
@@ -62,7 +63,7 @@ console.log(QuestionId)
         >
           <ABCD>C</ABCD>
           <AnswersText>
-          {QuestionText.options[2]}
+          {categorySelected[QuestionId].options[2]}
           </AnswersText>
         </AnswersButton>
         <AnswersButton
@@ -71,7 +72,7 @@ console.log(QuestionId)
         >
           <ABCD>D</ABCD>
           <AnswersText>
-          {QuestionText.options[3]}
+          {categorySelected[QuestionId].options[3]}
           </AnswersText>
         </AnswersButton>
       </ArticleCD>
