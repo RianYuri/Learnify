@@ -1,4 +1,5 @@
 import { useContext, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Styles from "./styled";
 import Button from "../../global/Button";
 
@@ -16,6 +17,8 @@ import success from "../../assets/imgs/check-answer.svg";
 import wrong from "../../assets/imgs/x-circle-answer.svg";
 
 const Results = () => {
+	const navigate = useNavigate();
+
 	const { userData } = useContext(userDataContext);
 	const { categorySelected } = useContext(categorySelectedContext);
 	const { questions, userPoints } = useContext(questionDataContext);
@@ -59,10 +62,15 @@ const Results = () => {
 					</div>
 				</section>
 				<section className="buttons">
-					<Button bg="transparent" color="#000" border="var(--dark-color)">
+					<Button
+						bg="transparent"
+						color="#000"
+						border="var(--dark-color)"
+						onClick={() => navigate("/select-knowledge")}
+					>
 						Refazer teste <img src={refresh} alt="" />
 					</Button>
-					<Button>Voltar para a tela inicial</Button>
+					<Button onClick={() => navigate("/home")}>Voltar para a tela inicial</Button>
 				</section>
 			</section>
 

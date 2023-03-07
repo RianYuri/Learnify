@@ -92,6 +92,7 @@ const Styles = styled.main`
 		font-weight: 700;
 		padding-left: 1rem;
 		padding-right: 1rem;
+		cursor: pointer;
 	}
 
 	.results-overlay {
@@ -141,6 +142,7 @@ const Styles = styled.main`
 		top: 20px;
 		right: 12px;
 		position: absolute;
+		cursor: pointer;
 	}
 	.container-overlay .title h1 {
 		margin-bottom: 10px;
