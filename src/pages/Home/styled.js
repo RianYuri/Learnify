@@ -302,6 +302,7 @@ const Styles = styled.section`
     @media (max-width: 520px) {
       .heading{
         gap: .5rem;
+        width: 100%;
         .home__title{
           font-size: 1.2rem;
           width: 100%;
