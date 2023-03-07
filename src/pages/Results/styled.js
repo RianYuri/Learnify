@@ -84,6 +84,7 @@ const Styles = styled.main`
 		flex-direction: column;
 		gap: 10px;
 		margin-top: 10px;
+		width: 100%;
 	}
 	.container .buttons button {
 		width: 100%;

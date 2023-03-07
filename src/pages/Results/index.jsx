@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import Styles from "./styled";
 import Button from "../../global/Button";
 
-import data from "../../services/data.json";
+import { userDataContext } from "../../contexts/UserDataContext";
 import { questionDataContext } from "../../contexts/QuestionsDataContext";
 import { categorySelectedContext } from "../../contexts/CategorySelectedContext";
 
@@ -16,21 +16,24 @@ import success from "../../assets/imgs/check-answer.svg";
 import wrong from "../../assets/imgs/x-circle-answer.svg";
 
 const Results = () => {
+	const { userData } = useContext(userDataContext);
 	const { categorySelected } = useContext(categorySelectedContext);
 	const { questions, userPoints } = useContext(questionDataContext);
 
 	const [showResults, setShowResults] = useState(false);
 
 	const letterOptions = ["A", "B", "C", "D"];
-	const smileConfig = { color: "", src: "", className: "" };
+	const smileConfig = {
+		color: "green",
+		src: faceSmile,
+		className: "happy",
+		message: "Ótima pontuação. Veja a correção do seu teste e pontos que você pode melhorar.",
+	};
 	if (userPoints < 6) {
 		smileConfig.color = "red";
 		smileConfig.src = faceSad;
 		smileConfig.className = "sad";
-	} else {
-		smileConfig.color = "green";
-		smileConfig.src = faceSmile;
-		smileConfig.className = "happy";
+		smileConfig.message = "Você pode melhorar a sua pontuação! Veja a correção e tente refazer o seu teste.";
 	}
 
 	return (
@@ -46,8 +49,8 @@ const Results = () => {
 
 				<section className="content">
 					<div className="message">
-						<h1>Parabéns, Rebeca Baruch!</h1>
-						<p>Ótima pontuação. Veja a correção do seu teste e pontos que você pode melhorar.</p>
+						<h1>Parabéns, {userData.userName}!</h1>
+						<p>{smileConfig.message}</p>
 					</div>
 
 					<div className="link" onClick={() => setShowResults(true)}>
@@ -82,8 +85,8 @@ const Results = () => {
 						</section>
 
 						<ul className="questions">
-							{questions.map(({ questionId, answer, correctAnswer }, index) => {
-								const questionData = data["Linguagens"].find(({ id }) => {
+							{questions.map(({ id: questionId, userAnswer, correctAnswer }, index) => {
+								const questionData = categorySelected.find(({ id }) => {
 									return id === questionId;
 								});
 								return (
@@ -94,9 +97,9 @@ const Results = () => {
 										</section>
 										<ul className="answers">
 											{questionData.options.map((option, index) => {
-												if (answer === correctAnswer) {
+												if (userAnswer === correctAnswer) {
 													return (
-														<li key={index} className={`answer ${answer === option ? "success" : ""}`}>
+														<li key={index} className={`answer ${correctAnswer === option ? "success" : ""}`}>
 															<h3 className="option">{letterOptions[index]}</h3>
 															<p>{option}</p>
 															{correctAnswer === option && <img src={success} alt="Success icon" />}
@@ -106,13 +109,13 @@ const Results = () => {
 												return (
 													<li
 														key={index}
-														className={`answer ${answer === option ? "wrong" : ""} ${
+														className={`answer ${userAnswer === option ? "wrong" : ""} ${
 															correctAnswer === option ? "success" : ""
 														}`}
 													>
 														<h3 className="option">{letterOptions[index]}</h3>
 														<p>{option}</p>
-														{answer === option && <img src={wrong} alt="Wrong icon" />}
+														{userAnswer === option && <img src={wrong} alt="Wrong icon" />}
 														{correctAnswer === option && <img src={success} alt="Success icon" />}
 													</li>
 												);
