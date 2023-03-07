@@ -14,14 +14,6 @@ self.addEventListener("install", (event) => {
   );
 });
 
-self.addEventListener("fetch", (event) => {
-  event.respondWith(
-    caches.match(event.request).then((res) => {
-      return fetch(event.request).catch(() => caches.match("offline.html"));
-    })
-  );
-});
-
 // actitivate the service worker
 self.addEventListener("activate", (event) => {
     const cacheWhitelist = [];
