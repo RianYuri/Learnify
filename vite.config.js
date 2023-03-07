@@ -7,7 +7,8 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(),
+  plugins: [
+      react(),
       VitePWA({  
       manifest: {  
         name: 'Learnify',  
@@ -30,6 +31,16 @@ export default defineConfig({
           }
         ],
         lang: "pt-BR",
+        shortcuts: [
+          {
+            name: "Categorias",
+            url: "/home",
+          },
+          {
+            name: "Inicio",
+            url: "/"
+          }
+        ],
         icons: [  
           {
             src: "icons/manifest-icon-192.maskable.png",

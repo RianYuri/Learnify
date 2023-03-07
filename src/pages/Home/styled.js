@@ -220,6 +220,10 @@ const Styles = styled.section`
           font-size: 1.2rem;
           background: var(--light-color);
           color: var(--primary-color);
+          &:hover{
+            filter: brightness(90%);
+            cursor: pointer;
+          }
         }
       }
     }
