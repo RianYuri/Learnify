@@ -21,6 +21,7 @@ import {
   BackButton,
   ArrowIcon,
   StartTest,
+  ContainerSummaryH4,
 } from "./styled";
 
 // Import Images
@@ -45,22 +46,24 @@ useEffect(() => {
     "Direito": illLaw,
     "Programação": illProg
   };
-  
+ 
   setImageLanguage(categoryToImageMap[categorySelected[0].category] || illAll);
 }, [])
 
   const navigate = useNavigate();
   return (
-    <Main>
+    <Main category={categorySelected[0].category}>
       <FaceImg src={FaceHappy} />
       <Section>
         {/* Primeira div pai */}
 
         <ArticleText>
+          <ContainerSummaryH4>
           <CategoryTitle>{categorySelected[0].category}</CategoryTitle>
           <CategorySummary>
         { categorySelected[0].sobre}
           </CategorySummary>
+          </ContainerSummaryH4>
         </ArticleText>
 
         {/* Segunda div pai */}

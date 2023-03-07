@@ -71,15 +71,15 @@ export default defineConfig({
       workbox: {
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/example\.com\/images/,
+            urlPattern: /^https:\/\/golearnify\.app\/img/,
             handler: 'CacheFirst',
             options: {
-              cacheName: 'my-images',
+              cacheName: 'images',
               expiration: {
-                maxAgeSeconds: 60 * 60 * 24 * 7 // Cache for 1 week
+                maxAgeSeconds: 60 * 60 * 24 * 7
               },
               cacheableResponse: {
-                statuses: [0, 200] // Cache all responses
+                statuses: [0, 200]
               }
             }
           }
