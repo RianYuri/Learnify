@@ -25,7 +25,7 @@ const QuestionDataProvider = ({ children }) => {
 	};
 
 	return (
-		<questionDataContext.Provider value={{ questions, validateAnswer, userPoints }}>
+		<questionDataContext.Provider value={{ questions, validateAnswer, userPoints, setQuestions }}>
 			{children}
 		</questionDataContext.Provider>
 	);
