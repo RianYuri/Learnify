@@ -26,7 +26,7 @@
           navigator.serviceWorker.register('./serviceWorker.js').then((reg) => {
             console.log('Worker Registered')
           }).catch((err) => {
-            console.log('Error in service worker registration.')
+            console.log('Error in service worker registration.', err)
           })
         })
       }
