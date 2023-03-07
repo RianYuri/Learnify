@@ -43,7 +43,7 @@ font-family: var(--font-titles);
 font-weight: 700;
 font-size: 20px;
 line-height: 24px;
-color: #C6C6C6;
+color: ${props => props.topButton ? "#C6C6C6" : "#323232"};
 cursor: pointer;
 `
 export const ArrowDisable = styled.img`

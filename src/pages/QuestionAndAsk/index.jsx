@@ -12,10 +12,11 @@ import {
   ArticleCD,
   NumberQuestion,
 } from "./styled";
-const QuestionAndAsk = ({proxQuestion}) => {
+const QuestionAndAsk = ({proxQuestion,clickQuestionIsTrue}) => {
 
 const [QuestionId, setQuestionId] = useState(0)
 const [selectAsk, setSelectAsk] = useState();
+const [clickNextQuestionsIsTrue, setClickNextQuestionsIsTrue] = useState(false)
   const { categorySelected } = useContext(categorySelectedContext);
 
 useEffect(() => {
@@ -23,8 +24,26 @@ useEffect(() => {
 
   setQuestionId(proxQuestion)
 
-}, [proxQuestion])
- console.log(categorySelected)
+  if(selectAsk === null){
+    setClickNextQuestionsIsTrue(false)
+  }else{
+    setClickNextQuestionsIsTrue(true)
+  }
+
+}, [proxQuestion,selectAsk])
+
+
+useEffect(()=>{
+  setSelectAsk(null)
+  clickQuestionIsTrue(false)
+
+},[proxQuestion])
+useEffect(() => {
+  clickQuestionIsTrue(clickNextQuestionsIsTrue)
+
+  
+}, [clickNextQuestionsIsTrue])
+
   return (
     <ArticleQuestions>
         <NumberQuestion>
