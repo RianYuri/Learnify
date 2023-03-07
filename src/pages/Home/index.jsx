@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import Styles from "./styled.js";
 import { categorySelectedContext } from "../../contexts/CategorySelectedContext.jsx";
 import { userDataContext } from "../../contexts/UserDataContext.jsx";
