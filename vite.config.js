@@ -9,8 +9,6 @@ import { VitePWA } from 'vite-plugin-pwa'
 export default defineConfig({
   plugins: [react(),
       VitePWA({  
-      registerType: 'prompt',  
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],  
       manifest: {  
         name: 'Learnify',  
         short_name: 'Learnify',  
