@@ -22,10 +22,16 @@ const QuickStart = () => {
       active: e.target.value.length >= 3,
     });
   };
-  const handleSaveUserName = () => {
-    setUserData({ userName: nameActive.name });
-    localStorage.setItem("userName", nameActive.name);
-    navigate("/home");
+  const handleSaveUserName = async () => {
+    try{
+      setUserData({ userName: nameActive.name });
+      localStorage.setItem("userName", nameActive.name);  
+    }catch(error){
+      console.log(error);
+    }finally{
+      navigate("/home");
+    }
+
   };
   return (
     <Styles active={nameActive.active}>
