@@ -4,6 +4,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from 'vite-plugin-pwa'
+import reactRefresh from "@vitejs/plugin-react-refresh"
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -68,6 +69,23 @@ export default defineConfig({
           }
         ],  
       },  
+      workbox: {
+        runtimeCaching: [
+          {
+            urlPattern: /^https:\/\/example\.com\/images/,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'my-images',
+              expiration: {
+                maxAgeSeconds: 60 * 60 * 24 * 7 // Cache for 1 week
+              },
+              cacheableResponse: {
+                statuses: [0, 200] // Cache all responses
+              }
+            }
+          }
+        ]
+      }
     }),
   ],
 
