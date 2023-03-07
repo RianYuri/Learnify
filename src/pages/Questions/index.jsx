@@ -36,6 +36,7 @@ const clickNextQuestions = () =>{
 }
 useEffect(() => {
   if (questions.length === 10) {
+    QuestionId = 0;
     navigate("/results");
   }
 }, [questions.length]);

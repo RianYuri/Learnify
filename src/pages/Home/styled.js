@@ -220,6 +220,10 @@ const Styles = styled.section`
           font-size: 1.2rem;
           background: var(--light-color);
           color: var(--primary-color);
+          &:hover{
+            filter: brightness(90%);
+            cursor: pointer;
+          }
         }
       }
     }
@@ -349,7 +353,7 @@ const Styles = styled.section`
     }
     @media (max-width: 375px) {
       width: 95%;
-      grid-row-gap: 1rem;
+      grid-row-gap: 2rem;
       .heading {
         .heading__logo {
           width: 60px;

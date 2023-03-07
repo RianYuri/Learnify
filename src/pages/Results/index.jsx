@@ -21,27 +21,21 @@ const Results = () => {
 
 	const { userData } = useContext(userDataContext);
 	const { categorySelected } = useContext(categorySelectedContext);
-	const { questions, userPoints } = useContext(questionDataContext);
+	const { questions, userPoints, setQuestions } = useContext(questionDataContext);
 
 	const [showResults, setShowResults] = useState(false);
 
 	const letterOptions = ["A", "B", "C", "D"];
-	const smileConfig = {
-		color: "green",
-		src: faceSmile,
-		className: "happy",
-		message: "Ótima pontuação. Veja a correção do seu teste e pontos que você pode melhorar.",
+
+	const handleNavigate = (path) => {
+		setQuestions([]);
+		localStorage.removeItem("questions");
+		navigate(path);
 	};
-	if (userPoints < 6) {
-		smileConfig.color = "red";
-		smileConfig.src = faceSad;
-		smileConfig.className = "sad";
-		smileConfig.message = "Você pode melhorar a sua pontuação! Veja a correção e tente refazer o seu teste.";
-	}
 
 	return (
-		<Styles color={smileConfig.color}>
-			<img src={smileConfig.src} alt="" className={`face ${smileConfig.className}`} />
+		<Styles color={userPoints < 6 ? "red" : "green"}>
+			<img src={userPoints < 6 ? faceSad : faceSmile} alt="" className={`face ${userPoints < 6 ? "sad" : "happy"}`} />
 			<section className="container">
 				<section className="points">
 					<img src={flag} alt="flag icon" />
@@ -52,8 +46,15 @@ const Results = () => {
 
 				<section className="content">
 					<div className="message">
-						<h1>Parabéns, {userData.userName}!</h1>
-						<p>{smileConfig.message}</p>
+						<h1>
+							{userPoints < 6 ? "Poxa vida, " : "Parabéns, "}
+							{userData.userName}!
+						</h1>
+						<p>
+							{userPoints < 6
+								? "Você pode melhorar a sua pontuação! Veja a correção e tente refazer o seu teste."
+								: "Ótima pontuação. Veja a correção do seu teste e pontos que você pode melhorar."}
+						</p>
 					</div>
 
 					<div className="link" onClick={() => setShowResults(true)}>
@@ -66,11 +67,11 @@ const Results = () => {
 						bg="transparent"
 						color="#000"
 						border="var(--dark-color)"
-						onClick={() => navigate("/select-knowledge")}
+						onClick={() => handleNavigate("/select-knowledge")}
 					>
 						Refazer teste <img src={refresh} alt="" />
 					</Button>
-					<Button onClick={() => navigate("/home")}>Voltar para a tela inicial</Button>
+					<Button onClick={() => handleNavigate("/home")}>Voltar para a tela inicial</Button>
 				</section>
 			</section>
 
