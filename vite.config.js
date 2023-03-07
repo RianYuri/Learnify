@@ -71,7 +71,7 @@ export default defineConfig({
       includeAssets: [
         {
           from: 'src/assets/imgs',
-          to: 'assets/imgs',
+          to: 'public/assets/imgs',
           glob: ['**/*']
         },
       ],
