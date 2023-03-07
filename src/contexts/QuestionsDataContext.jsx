@@ -1,8 +1,10 @@
 import { createContext, useState, useMemo } from "react";
 
+const questionsDefault = localStorage.getItem("questions") ? JSON.parse(localStorage.getItem("questions")) : [];
+
 const questionDataContext = createContext();
 const QuestionDataProvider = ({ children }) => {
-	const [questions, setQuestions] = useState([]);
+	const [questions, setQuestions] = useState(questionsDefault);
 
 	const userPoints = useMemo(() => {
 		let points = 0;
@@ -22,6 +24,7 @@ const QuestionDataProvider = ({ children }) => {
 			userAnswer: answer,
 		});
 		setQuestions(newQuestions);
+		localStorage.setItem("questions", JSON.stringify(newQuestions));
 	};
 
 	return (
