@@ -71,7 +71,7 @@ export default defineConfig({
       workbox: {
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/example\.com\/images/,
+            urlPattern: /^https:\/\/golearnify\.app\/img/,
             handler: 'CacheFirst',
             options: {
               cacheName: 'my-images',
