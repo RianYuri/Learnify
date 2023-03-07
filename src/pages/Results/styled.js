@@ -84,6 +84,7 @@ const Styles = styled.main`
 		flex-direction: column;
 		gap: 10px;
 		margin-top: 10px;
+		width: 100%;
 	}
 	.container .buttons button {
 		width: 100%;
@@ -164,6 +165,7 @@ const Styles = styled.main`
 	.question .ask {
 		display: grid;
 		grid-template-columns: 45px 1fr;
+		align-items: center;
 		gap: 15px;
 
 		margin-bottom: 20px;

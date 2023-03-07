@@ -1,60 +1,57 @@
-import { useEffect, useState,useContext } from "react";
-import data from "../../services/data.json";
+import { useEffect, useState, useContext } from "react";
+
 import { categorySelectedContext } from "../../contexts/CategorySelectedContext";
 
 import {
-  ArticleQuestions,
-  Question,
-  AnswersButton,
-  ABCD,
-  AnswersText,
-  ArticleAB,
-  ArticleCD,
-  NumberQuestion,
+	ArticleQuestions,
+	Question,
+	AnswersButton,
+	ABCD,
+	AnswersText,
+	ArticleAB,
+	ArticleCD,
+	NumberQuestion,
 } from "./styled";
-const QuestionAndAsk = ({proxQuestion,clickQuestionIsTrue}) => {
+const QuestionAndAsk = ({clickQuestionIsTrue,QuestionId, handleAnswer }) => {
 
-const [QuestionId, setQuestionId] = useState(0)
+  const [questionId, setQuestionId] = useState(QuestionId);
+  const [clickNextQuestionsIsTrue, setClickNextQuestionsIsTrue] = useState(false)
 const [selectAsk, setSelectAsk] = useState();
-const [clickNextQuestionsIsTrue, setClickNextQuestionsIsTrue] = useState(false)
   const { categorySelected } = useContext(categorySelectedContext);
 
-useEffect(() => {
-  
+	useEffect(() => {
+		const data = {
+			questionId: categorySelected[questionId].id,
+			correctAnswer: categorySelected[questionId].answer,
+			answer: categorySelected[questionId].options[selectAsk],
+		};
+		handleAnswer(data);
+	}, [selectAsk]);
 
-  setQuestionId(proxQuestion)
-
-  if(selectAsk === null){
+	useEffect(() => {
+		setQuestionId(QuestionId);
+ if(selectAsk === null){
     setClickNextQuestionsIsTrue(false)
   }else{
     setClickNextQuestionsIsTrue(true)
   }
-
-}, [proxQuestion,selectAsk])
-
-
-useEffect(()=>{
-  setSelectAsk(null)
-  clickQuestionIsTrue(false)
-
-},[proxQuestion])
-useEffect(() => {
-  clickQuestionIsTrue(clickNextQuestionsIsTrue)
-
+	}, [QuestionId,selectAsk]);
+  useEffect(()=>{
+    setSelectAsk(null)
+    clickQuestionIsTrue(false)
   
-}, [clickNextQuestionsIsTrue])
+  },[QuestionId])
+  useEffect(() => {
+    clickQuestionIsTrue(clickNextQuestionsIsTrue)
+  
+    
+  }, [clickNextQuestionsIsTrue])
 
   return (
     <ArticleQuestions>
-        <NumberQuestion>
-        {QuestionId < 10
-            ? `0${QuestionId}`
-            : `${QuestionId}`
-          } 
-        
-  </NumberQuestion>
+     	<NumberQuestion>{(questionId + 1).toString().padStart(2, "0")}</NumberQuestion>
 
-      <Question>{categorySelected[QuestionId].question}</Question>
+      <Question>{categorySelected[questionId].question}</Question>
       <ArticleAB>
         <AnswersButton
           topButton={selectAsk === 0 ? true : false}
@@ -62,7 +59,7 @@ useEffect(() => {
         >
           <ABCD>A</ABCD>
           <AnswersText>
-          {categorySelected[QuestionId].options[0]}
+          {categorySelected[questionId].options[0]}
           </AnswersText>
         </AnswersButton>
         <AnswersButton
@@ -71,7 +68,7 @@ useEffect(() => {
         >
           <ABCD>B</ABCD>
           <AnswersText>
-          {categorySelected[QuestionId].options[1]}
+          {categorySelected[questionId].options[1]}
           </AnswersText>
         </AnswersButton>
       </ArticleAB>
@@ -82,7 +79,7 @@ useEffect(() => {
         >
           <ABCD>C</ABCD>
           <AnswersText>
-          {categorySelected[QuestionId].options[2]}
+          {categorySelected[questionId].options[2]}
           </AnswersText>
         </AnswersButton>
         <AnswersButton
@@ -91,7 +88,7 @@ useEffect(() => {
         >
           <ABCD>D</ABCD>
           <AnswersText>
-          {categorySelected[QuestionId].options[3]}
+          {categorySelected[questionId].options[3]}
           </AnswersText>
         </AnswersButton>
       </ArticleCD>
