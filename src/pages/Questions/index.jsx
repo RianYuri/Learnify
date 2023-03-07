@@ -8,63 +8,65 @@ import ArrowRightEnable from "../../assets/imgs/arrow-right-enable.svg";
 import QuestionAndAsk from "../QuestionAndAsk";
 import { useNavigate } from "react-router-dom";
 import { questionDataContext } from "../../contexts/QuestionsDataContext";
-let QuestionId = 0;
+let QuestionId = localStorage.getItem("questionId") ? +localStorage.getItem("questionId") : 0;
 const Questions = () => {
-  const { validateAnswer, questions } = useContext(questionDataContext);
+	const { validateAnswer, questions } = useContext(questionDataContext);
 	const [answerData, setAnswerData] = useState({});
-  const [selectQuestionIsTrue, setSelectQuestionIsTrue] = useState();
-  const [progress,setProgress] = useState(10)
-const navigate = useNavigate()
+	const [selectQuestionIsTrue, setSelectQuestionIsTrue] = useState();
+	const [progress, setProgress] = useState(QuestionId === 0 ? 10 : QuestionId * 10);
+	const navigate = useNavigate();
 
-const handleAnswer = (data) => {
-  setAnswerData(data);
-};
-const clickQuestionIsTrue = (clickNextQuestionsIsTrue) => {
-  if (!clickNextQuestionsIsTrue === true) {
-    setSelectQuestionIsTrue(true);
-  } else {
-    setSelectQuestionIsTrue(false);
-  }
-};
+	const handleAnswer = (data) => {
+		setAnswerData(data);
+	};
+	const clickQuestionIsTrue = (clickNextQuestionsIsTrue) => {
+		if (!clickNextQuestionsIsTrue === true) {
+			setSelectQuestionIsTrue(true);
+		} else {
+			setSelectQuestionIsTrue(false);
+		}
+	};
 
-const clickNextQuestions = () =>{
-  if(!selectQuestionIsTrue === true){
-  validateAnswer(answerData);
-  setProgress(progress+10)
-  QuestionId = QuestionId + 1;
-  }
-}
-useEffect(() => {
-  if (questions.length === 10) {
-    QuestionId = 0;
-    navigate("/results");
-  }
-}, [questions.length]);
+	const clickNextQuestions = () => {
+		if (!selectQuestionIsTrue === true) {
+			validateAnswer(answerData);
+			setProgress(progress + 10);
+			QuestionId = QuestionId + 1;
+			localStorage.setItem("questionId", QuestionId);
+		}
+	};
+	useEffect(() => {
+		if (questions.length === 10) {
+			QuestionId = 0;
+			localStorage.setItem("questionId", QuestionId);
+			navigate("/results");
+		}
+	}, [questions.length]);
 
-
-
-  return (
-    <Main>
-      <SectionComponents>
-        <QuestionAndAsk QuestionId={QuestionId} handleAnswer={handleAnswer} clickQuestionIsTrue={clickQuestionIsTrue}></QuestionAndAsk>
-        <ArticleNext>
-            <NextPage onClick={clickNextQuestions} topButton={selectQuestionIsTrue}>Próxima</NextPage >
-            {selectQuestionIsTrue ? (
-            <ArrowDisable src={ArrowRightDisable} />
-          ) : (
-            <ArrowDisable src={ArrowRightEnable} />
-          )}
-        </ArticleNext>
-        <ProgressBarQuestions
+	return (
+		<Main>
+			<SectionComponents>
+				<QuestionAndAsk
+					QuestionId={QuestionId}
+					handleAnswer={handleAnswer}
+					clickQuestionIsTrue={clickQuestionIsTrue}
+				></QuestionAndAsk>
+				<ArticleNext>
+					<NextPage onClick={clickNextQuestions} topButton={selectQuestionIsTrue}>
+						Próxima
+					</NextPage>
+					{selectQuestionIsTrue ? <ArrowDisable src={ArrowRightDisable} /> : <ArrowDisable src={ArrowRightEnable} />}
+				</ArticleNext>
+				<ProgressBarQuestions
 					type="range"
 					min="0"
 					max="100"
 					defaultValue="0"
 					ProgressValue={progress}
 				></ProgressBarQuestions>
-      </SectionComponents>
-    </Main>
-  );
+			</SectionComponents>
+		</Main>
+	);
 };
 
 export default Questions;

@@ -30,6 +30,7 @@ const Results = () => {
 	const handleNavigate = (path) => {
 		setQuestions([]);
 		localStorage.removeItem("questions");
+		if (path === "/home") localStorage.removeItem("categorySelected");
 		navigate(path);
 	};
 
