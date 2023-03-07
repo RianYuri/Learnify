@@ -3,17 +3,14 @@
 
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import { VitePWA } from 'vite-plugin-pwa';
+import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    react(),
-    VitePWA({  
-      registerType: 'prompt',  
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],  
+  plugins: [react(),
+      VitePWA({  
       manifest: {  
-  name: 'Learnify',  
+        name: 'Learnify',  
         short_name: 'Learnify',  
         description: 'Seu app de quiz para aprender e se divertir',  
         theme_color: '#ffffff',  
@@ -45,7 +42,9 @@ export default defineConfig({
           }
         ],  
       },  
-    }),  ],
+    }),
+  ],
+
   test: {
     globals: true,
     environment: "jsdom",
