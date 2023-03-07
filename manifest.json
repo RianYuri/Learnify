@@ -1,7 +1,6 @@
 {
     "short_name": "Learnify",
     "name": "Learnify",
-    "description": "Seu app de quiz para aprender e se divertir",
     "icons": [
         {
             "src": "icons/manifest-icon-192.maskable.png",
@@ -30,7 +29,6 @@
     ],
     "start_url": "/",
     "display": "standalone",
-    "orientation": "portrait",
     "theme_color": "#1E96FC",
     "background_color": "#ffffff"
   }
