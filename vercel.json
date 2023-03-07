@@ -1,3 +1,10 @@
 {
-    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+    "rewrites": [{ "source": "/(.*)", "destination": "/" },
+    {
+        "source": "/serviceWorker.js",
+        "destination": "/serviceWorker.js",
+        "headers": {
+          "content-type": "application/javascript"
+        }
+      }]
 }
