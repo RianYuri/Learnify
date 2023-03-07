@@ -165,6 +165,7 @@ const Styles = styled.main`
 	.question .ask {
 		display: grid;
 		grid-template-columns: 45px 1fr;
+		align-items: center;
 		gap: 15px;
 
 		margin-bottom: 20px;
