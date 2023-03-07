@@ -26,18 +26,6 @@ const Results = () => {
 	const [showResults, setShowResults] = useState(false);
 
 	const letterOptions = ["A", "B", "C", "D"];
-	const smileConfig = {
-		color: "green",
-		src: faceSmile,
-		className: "happy",
-		message: "Ótima pontuação. Veja a correção do seu teste e pontos que você pode melhorar.",
-	};
-	if (userPoints < 6) {
-		smileConfig.color = "red";
-		smileConfig.src = faceSad;
-		smileConfig.className = "sad";
-		smileConfig.message = "Você pode melhorar a sua pontuação! Veja a correção e tente refazer o seu teste.";
-	}
 
 	const handleNavigate = (path) => {
 		setQuestions([]);
@@ -45,8 +33,8 @@ const Results = () => {
 	};
 
 	return (
-		<Styles color={smileConfig.color}>
-			<img src={smileConfig.src} alt="" className={`face ${smileConfig.className}`} />
+		<Styles color={userPoints < 6 ? "red" : "green"}>
+			<img src={userPoints < 6 ? faceSad : faceSmile} alt="" className={`face ${userPoints < 6 ? "sad" : "happy"}`} />
 			<section className="container">
 				<section className="points">
 					<img src={flag} alt="flag icon" />
@@ -57,8 +45,8 @@ const Results = () => {
 
 				<section className="content">
 					<div className="message">
-						<h1>Parabéns, {userData.userName}!</h1>
-						<p>{smileConfig.message}</p>
+						<h1>{userPoints < 6 ? "Poxa vida, " : "Parabéns, "}{userData.userName}!</h1>
+						<p>{userPoints < 6 ? "Você pode melhorar a sua pontuação! Veja a correção e tente refazer o seu teste." : "Ótima pontuação. Veja a correção do seu teste e pontos que você pode melhorar."}</p>
 					</div>
 
 					<div className="link" onClick={() => setShowResults(true)}>
