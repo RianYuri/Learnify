@@ -1,45 +1,47 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 //Import Styles
-import {
-  Main,
-  SectionComponents,
-  ArticleNext,
-  NextPage,
-  ArrowDisable,
-  ProgressBarQuestions,
-} from "./styled";
+import { Main, SectionComponents, ArticleNext, NextPage, ArrowDisable, ProgressBarQuestions } from "./styled";
 // Import image
-import ArrowRightDisable from "../../assets/imgs/arrow-right-disable.svg"
+import ArrowRightDisable from "../../assets/imgs/arrow-right-disable.svg";
 //import Components
-import QuestionAndAsk from "../QuestionAndAsk"; 
+import QuestionAndAsk from "../QuestionAndAsk";
 import { useNavigate } from "react-router-dom";
-let proxQuestion = 1;
+import { questionDataContext } from "../../contexts/QuestionsDataContext";
+let QuestionId = 0;
 const Questions = () => {
-const [progress,setProgress] = useState(10)
-const navigate = useNavigate()
+	const { validateAnswer, questions } = useContext(questionDataContext);
 
-const clickNextQuestions = () =>{
-  setProgress(progress+10)
-  proxQuestion = proxQuestion + 1; 
-}
+	const [answerData, setAnswerData] = useState({});
+	const [progress, setProgress] = useState(10);
+	const navigate = useNavigate();
 
-if(progress === 110){
-    navigate('/results')
-}
+	const handleAnswer = (data) => {
+		setAnswerData(data);
+	};
 
+	const clickNextQuestions = () => {
+		validateAnswer(answerData);
 
-  return (
-    <Main>
-      <SectionComponents>
-        <QuestionAndAsk proxQuestion={proxQuestion}></QuestionAndAsk>
-        <ArticleNext>
-            <NextPage onClick={clickNextQuestions}>Próxima</NextPage >
-    <ArrowDisable src={ArrowRightDisable} />
-        </ArticleNext>
-        <ProgressBarQuestions type="range" min="0" max="100" value="0" ProgressValue={progress}></ProgressBarQuestions>
-      </SectionComponents>
-    </Main>
-  );
+		setProgress(progress + 10);
+		QuestionId = QuestionId + 1;
+	};
+
+	if (questions.length === 10) {
+		navigate("/results");
+	}
+
+	return (
+		<Main>
+			<SectionComponents>
+				<QuestionAndAsk QuestionId={QuestionId} handleAnswer={handleAnswer}></QuestionAndAsk>
+				<ArticleNext>
+					<NextPage onClick={clickNextQuestions}>Próxima</NextPage>
+					<ArrowDisable src={ArrowRightDisable} />
+				</ArticleNext>
+				<ProgressBarQuestions type="range" min="0" max="100" value="0" ProgressValue={progress}></ProgressBarQuestions>
+			</SectionComponents>
+		</Main>
+	);
 };
 
 export default Questions;

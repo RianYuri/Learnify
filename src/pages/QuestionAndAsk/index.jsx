@@ -1,82 +1,62 @@
-import { useEffect, useState,useContext } from "react";
-import data from "../../services/data.json";
+import { useEffect, useState, useContext } from "react";
+
 import { categorySelectedContext } from "../../contexts/CategorySelectedContext";
 
 import {
-  ArticleQuestions,
-  Question,
-  AnswersButton,
-  ABCD,
-  AnswersText,
-  ArticleAB,
-  ArticleCD,
-  NumberQuestion,
+	ArticleQuestions,
+	Question,
+	AnswersButton,
+	ABCD,
+	AnswersText,
+	ArticleAB,
+	ArticleCD,
+	NumberQuestion,
 } from "./styled";
-const QuestionAndAsk = ({proxQuestion}) => {
 
-const [QuestionId, setQuestionId] = useState(0)
-const [selectAsk, setSelectAsk] = useState();
-  const { categorySelected } = useContext(categorySelectedContext);
+const QuestionAndAsk = ({ QuestionId, handleAnswer }) => {
+	const [questionId, setQuestionId] = useState(QuestionId);
+	const [selectAsk, setSelectAsk] = useState();
+	const { categorySelected } = useContext(categorySelectedContext);
 
-useEffect(() => {
-  
+	useEffect(() => {
+		const data = {
+			questionId: categorySelected[questionId].id,
+			correctAnswer: categorySelected[questionId].answer,
+			answer: categorySelected[questionId].options[selectAsk],
+		};
+		handleAnswer(data);
+	}, [selectAsk]);
 
-  setQuestionId(proxQuestion)
+	useEffect(() => {
+		setQuestionId(QuestionId);
+	}, [QuestionId]);
 
-}, [proxQuestion])
- console.log(categorySelected)
-  return (
-    <ArticleQuestions>
-        <NumberQuestion>
-        {QuestionId < 10
-            ? `0${QuestionId}`
-            : `${QuestionId}`
-          } 
-        
-  </NumberQuestion>
+	return (
+		<ArticleQuestions>
+			<NumberQuestion>{(questionId + 1).toString().padStart(2, "0")}</NumberQuestion>
 
-      <Question>{categorySelected[QuestionId].question}</Question>
-      <ArticleAB>
-        <AnswersButton
-          topButton={selectAsk === 0 ? true : false}
-          onClick={() => setSelectAsk(0)}
-        >
-          <ABCD>A</ABCD>
-          <AnswersText>
-          {categorySelected[QuestionId].options[0]}
-          </AnswersText>
-        </AnswersButton>
-        <AnswersButton
-          topButton={selectAsk === 1 ? true : false}
-          onClick={() => setSelectAsk(1)}
-        >
-          <ABCD>B</ABCD>
-          <AnswersText>
-          {categorySelected[QuestionId].options[1]}
-          </AnswersText>
-        </AnswersButton>
-      </ArticleAB>
-      <ArticleCD>
-        <AnswersButton
-          topButton={selectAsk === 2 ? true : false}
-          onClick={() => setSelectAsk(2)}
-        >
-          <ABCD>C</ABCD>
-          <AnswersText>
-          {categorySelected[QuestionId].options[2]}
-          </AnswersText>
-        </AnswersButton>
-        <AnswersButton
-          topButton={selectAsk === 3 ? true : false}
-          onClick={() => setSelectAsk(3)}
-        >
-          <ABCD>D</ABCD>
-          <AnswersText>
-          {categorySelected[QuestionId].options[3]}
-          </AnswersText>
-        </AnswersButton>
-      </ArticleCD>
-    </ArticleQuestions>
-  );
+			<Question>{categorySelected[questionId].question}</Question>
+			<ArticleAB>
+				<AnswersButton topButton={selectAsk === 0 ? true : false} onClick={() => setSelectAsk(0)}>
+					<ABCD>A</ABCD>
+					<AnswersText>{categorySelected[questionId].options[0]}</AnswersText>
+				</AnswersButton>
+				<AnswersButton topButton={selectAsk === 1 ? true : false} onClick={() => setSelectAsk(1)}>
+					<ABCD>B</ABCD>
+					<AnswersText>{categorySelected[questionId].options[1]}</AnswersText>
+				</AnswersButton>
+			</ArticleAB>
+			<ArticleCD>
+				<AnswersButton topButton={selectAsk === 2 ? true : false} onClick={() => setSelectAsk(2)}>
+					<ABCD>C</ABCD>
+					<AnswersText>{categorySelected[questionId].options[2]}</AnswersText>
+				</AnswersButton>
+				<AnswersButton topButton={selectAsk === 3 ? true : false} onClick={() => setSelectAsk(3)}>
+					<ABCD>D</ABCD>
+					<AnswersText>{categorySelected[questionId].options[3]}</AnswersText>
+				</AnswersButton>
+			</ArticleCD>
+		</ArticleQuestions>
+	);
 };
 export default QuestionAndAsk;
