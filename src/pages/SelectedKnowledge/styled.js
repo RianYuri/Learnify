@@ -78,7 +78,7 @@ export const ArticleQuestions = styled.article`
 height: 100%;
 display: flex;
 justify-content: center;
-gap: 30px;
+gap: 20px;
 `
 
 // Segunda article Pai
@@ -87,7 +87,7 @@ width: 100%;
 display: flex;
 flex-direction: row;
 justify-content: center;
-gap: 190px;
+gap: 180px;
 @media (max-width: 813px) {
     justify-content: flex-start;
     padding-top: 38px;
@@ -129,7 +129,7 @@ height: 94.43px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-gap: 24px;
+gap: 23px;
 
 `
 export const FigureCategory = styled.figure`
