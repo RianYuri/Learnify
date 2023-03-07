@@ -29,6 +29,7 @@ const Results = () => {
 
 	const handleNavigate = (path) => {
 		setQuestions([]);
+		localStorage.removeItem("questions");
 		navigate(path);
 	};
 
@@ -45,8 +46,15 @@ const Results = () => {
 
 				<section className="content">
 					<div className="message">
-						<h1>{userPoints < 6 ? "Poxa vida, " : "Parabéns, "}{userData.userName}!</h1>
-						<p>{userPoints < 6 ? "Você pode melhorar a sua pontuação! Veja a correção e tente refazer o seu teste." : "Ótima pontuação. Veja a correção do seu teste e pontos que você pode melhorar."}</p>
+						<h1>
+							{userPoints < 6 ? "Poxa vida, " : "Parabéns, "}
+							{userData.userName}!
+						</h1>
+						<p>
+							{userPoints < 6
+								? "Você pode melhorar a sua pontuação! Veja a correção e tente refazer o seu teste."
+								: "Ótima pontuação. Veja a correção do seu teste e pontos que você pode melhorar."}
+						</p>
 					</div>
 
 					<div className="link" onClick={() => setShowResults(true)}>
