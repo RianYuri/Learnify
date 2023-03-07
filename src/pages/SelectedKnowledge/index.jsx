@@ -39,29 +39,14 @@ const SelectedKnowledge = () => {
 const [imageLanguage, setImageLanguage] = useState()
 useEffect(() => {
   
-  if(categorySelected[0].category=== "Matemática"){
-    setImageLanguage(illMath);
-  }
-  else if(categorySelected[0].category=== "Linguagens" ){
+  const categoryToImageMap = {
+    "Matemática": illMath,
+    "Linguagens": LanguageLearning,
+    "Direito": illLaw,
+    "Programação": illProg
+  };
   
-    setImageLanguage(LanguageLearning);
-  
-  }
-  else if(categorySelected[0].category=== "Direito" ){
-  
-    setImageLanguage(illLaw);
-  
-  }
-  else if(categorySelected[0].category=== "Programação" ){
-  
-    setImageLanguage(illProg);
-  
-  }
-  else{
-  
-    setImageLanguage(illAll);
-  
-  }
+  setImageLanguage(categoryToImageMap[categorySelected[0].category] || illAll);
 }, [])
 
   const navigate = useNavigate();
