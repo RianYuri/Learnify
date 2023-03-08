@@ -36,7 +36,7 @@ border-radius: 204px 204px 0px 0px;
     justify-content: flex-start;
     gap: 20px;
     @media (max-width: 768px) {
-height: 90%;
+height: 85%;
 border-radius: 44px 44px 0px 0px;
 
 }
