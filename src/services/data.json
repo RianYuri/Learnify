@@ -1,1417 +1,1437 @@
 {
-	"Linguagens": [
-		{
-			"id": 1,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "pt",
-			"question": "Qual é o antônimo da palavra 'amor'?",
-			"options": ["Odor", "Alegria", "Raiva", "Tristeza"],
-			"answer": "Raiva"
-		},
-		{
-			"id": 2,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "en",
-			"question": "What is the opposite of the word 'happy'?",
-			"options": ["Sad", "Angry", "Tired", "Excited"],
-			"answer": "Sad"
-		},
-		{
-			"id": 3,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "es",
-			"question": "¿Cuál es el antónimo de la palabra 'bueno'?",
-			"options": ["Malo", "Feo", "Grande", "Nuevo"],
-			"answer": "Malo"
-		},
-		{
-			"id": 4,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "pt",
-			"question": "Qual é a palavra em português que significa 'tooth' em inglês?",
-			"options": ["Dente", "Cérebro", "Olho", "Nariz"],
-			"answer": "Dente"
-		},
-		{
-			"id": 5,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "en",
-			"question": "What is the Spanish word for 'book'?",
-			"options": ["Libro", "Perro", "Gato", "Casa"],
-			"answer": "Libro"
-		},
-		{
-			"id": 6,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "es",
-			"question": "¿Cuál es el significado de la palabra 'gato'?",
-			"options": ["Perro", "Ratón", "Pájaro", "Gato"],
-			"answer": "Gato"
-		},
-		{
-			"id": 7,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "pt",
-			"question": "Qual é a tradução para o inglês da frase 'Eu amo você'?",
-			"options": ["I love you", "I hate you", "I miss you", "I need you"],
-			"answer": "I love you"
-		},
-		{
-			"id": 8,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "en",
-			"question": "What is the Portuguese word for 'hello'?",
-			"options": ["Hola", "Bonjour", "Ciao", "Olá"],
-			"answer": "Olá"
-		},
-		{
-			"id": 9,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "es",
-			"question": "¿Cuál es el verbo en la frase 'Yo como una manzana'?",
-			"options": ["Yo", "como", "una", "manzana"],
-			"answer": "como"
-		},
-		{
-			"id": 10,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "en",
-			"question": "What is the plural of the word 'child'?",
-			"options": ["Childs", "Childrens", "Childen", "Children"],
-			"answer": "Children"
-		},
-		{
-			"id": 11,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "en",
-			"question": "What is the Portuguese word for 'thank you'?",
-			"options": ["Obrigado", "Gracias", "Merci", "Thank you"],
-			"answer": "Obrigado"
-		},
-		{
-			"id": 12,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "es",
-			"question": "¿Cuál es el plural de la palabra 'perro'?",
-			"options": ["Perros", "Perroes", "Perres", "Perós"],
-			"answer": "Perros"
-		},
-		{
-			"id": 13,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "pt",
-			"question": "Qual é a tradução para o inglês da palavra 'água'?",
-			"options": ["Water", "Fire", "Air", "Earth"],
-			"answer": "Water"
-		},
-		{
-			"id": 14,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "en",
-			"question": "What is the Spanish word for 'house'?",
-			"options": ["Casa", "Carro", "Bicicleta", "Avión"],
-			"answer": "Casa"
-		},
-		{
-			"id": 15,
-			"category": "Linguagens",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
-			"language": "es",
-			"question": "¿Cuál es el adjetivo en la frase 'La casa es grande'?",
-			"options": ["La", "casa", "es", "grande"],
-			"answer": "grande"
-		}
-	],
-	"Leis": [
-		{
-			"id": 1,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "O que significa a sigla STF?",
-			"options": [
-				"Superior Tribunal de Fazenda",
-				"Supremo Tribunal Federal",
-				"Superintendência de Trânsito e Transportes",
-				"Sindicato dos Trabalhadores Ferroviários"
-			],
-			"answer": "Supremo Tribunal Federal"
-		},
-		{
-			"id": 2,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Qual é a lei que instituiu o Código de Defesa do Consumidor no Brasil?",
-			"options": ["Lei nº 8.078/90", "Lei nº 9.876/99", "Lei nº 10.046/01", "Lei nº 11.256/05"],
-			"answer": "Lei nº 8.078/90"
-		},
-		{
-			"id": 3,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Qual é a idade mínima para votar no Brasil?",
-			"options": ["16 anos", "17 anos", "18 anos", "19 anos"],
-			"answer": "18 anos"
-		},
-		{
-			"id": 4,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Em que ano foi promulgada a Constituição Federal brasileira?",
-			"options": ["1987", "1988", "1989", "1990"],
-			"answer": "1988"
-		},
-		{
-			"id": 5,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Qual é o número de deputados federais no Brasil?",
-			"options": ["513", "500", "520", "517"],
-			"answer": "513"
-		},
-		{
-			"id": 6,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Qual é o nome da lei que estabelece as diretrizes e bases da educação nacional?",
-			"options": [
-				"Lei de Diretrizes e Bases da Educação Nacional",
-				"Lei de Diretrizes e Normas da Educação Nacional",
-				"Lei de Direitos e Bases da Educação Nacional",
-				"Lei de Normas e Bases da Educação Nacional"
-			],
-			"answer": "Lei de Diretrizes e Bases da Educação Nacional"
-		},
-		{
-			"id": 7,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Qual é o nome da lei que define os crimes de responsabilidade do Presidente da República?",
-			"options": [
-				"Lei de Impeachment",
-				"Lei de Crimes Políticos",
-				"Lei de Responsabilidade do Presidente",
-				"Lei do Colarinho Branco"
-			],
-			"answer": "Lei de Crimes Políticos"
-		},
-		{
-			"id": 8,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Qual é o artigo da Constituição Federal que garante a liberdade de expressão?",
-			"options": ["Artigo 5º", "Artigo 10º", "Artigo 15º", "Artigo 20º"],
-			"answer": "Artigo 5º"
-		},
-		{
-			"id": 9,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Qual é a lei que garante o direito à educação?",
-			"options": [
-				"Lei de Diretrizes e Bases da Educação",
-				"Lei do Bolsa Família",
-				"Lei de Incentivo à Cultura",
-				"Lei do Estágio"
-			],
-			"answer": "Lei de Diretrizes e Bases da Educação"
-		},
-		{
-			"id": 10,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Qual é a lei que estabelece a jornada máxima de trabalho de 8 horas por dia?",
-			"options": [
-				"Lei do Descanso Semanal Remunerado",
-				"Lei do Salário Mínimo",
-				"Lei das Férias",
-				"Consolidação das Leis do Trabalho (CLT)"
-			],
-			"answer": "Consolidação das Leis do Trabalho (CLT)"
-		},
-		{
-			"id": 11,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Qual é a lei que protege o consumidor contra práticas abusivas de empresas?",
-			"options": [
-				"Lei de Propriedade Industrial",
-				"Lei de Proteção à Propriedade Intelectual",
-				"Lei de Defesa do Consumidor",
-				"Lei de Patentes"
-			],
-			"answer": "Lei de Defesa do Consumidor"
-		},
-		{
-			"id": 12,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Qual é a lei que prevê punição para o assédio sexual?",
-			"options": ["Lei de Proteção à Mulher", "Lei de Drogas", "Lei de Abuso de Autoridade", "Lei do Assédio Sexual"],
-			"answer": "Lei de Proteção à Mulher"
-		},
-		{
-			"id": 13,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Qual é a lei que estabelece as regras para o uso de medicamentos?",
-			"options": [
-				"Lei de Regulação Sanitária",
-				"Lei de Controle de Produtos Químicos",
-				"Lei de Vigilância Sanitária",
-				"Lei de Propriedade Industrial"
-			],
-			"answer": "Lei de Regulação Sanitária"
-		},
-		{
-			"id": 14,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Qual é a lei que estabelece as regras para a exploração de petróleo e gás no Brasil?",
-			"options": [
-				"Lei de Diretrizes e Bases da Educação Nacional",
-				"Lei de Diretrizes e Bases da Saúde",
-				"Lei de Diretrizes e Bases da Política Energética",
-				"Lei de Diretrizes e Bases da Política Agrícola"
-			],
-			"answer": "Lei de Diretrizes e Bases da Política Energética"
-		},
-		{
-			"id": 15,
-			"category": "Direito",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
-			"language": "pt",
-			"question": "Qual é a lei que estabelece as regras para a exploração de petróleo e gás no Brasil?",
-			"options": [
-				"Lei de Diretrizes e Bases da Educação Nacional",
-				"Lei de Diretrizes e Bases da Saúde",
-				"Lei de Diretrizes e Bases da Política Energética",
-				"Lei de Diretrizes e Bases da Política Agrícola"
-			],
-			"answer": "Lei de Diretrizes e Bases da Política Energética"
-		}
-	],
-	"Matematica": [
-		{
-			"id": 1,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é o valor de x na equação 2x + 3 = 11?",
-			"options": ["3", "4", "5", "6"],
-			"answer": "4"
-		},
-		{
-			"id": 2,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é a solução da equação 5x - 7 = 18?",
-			"options": ["5", "6", "7", "8"],
-			"answer": "5"
-		},
-		{
-			"id": 3,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+  "Linguagens": [
+    {
+      "id": 1,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "pt",
+      "question": "Qual é o antônimo da palavra 'amor'?",
+      "options": ["Odor", "Alegria", "Raiva", "Tristeza"],
+      "answer": "Raiva"
+    },
+    {
+      "id": 2,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "en",
+      "question": "What is the opposite of the word 'happy'?",
+      "options": ["Sad", "Angry", "Tired", "Excited"],
+      "answer": "Sad"
+    },
+    {
+      "id": 3,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "es",
+      "question": "¿Cuál es el antónimo de la palabra 'bueno'?",
+      "options": ["Malo", "Feo", "Grande", "Nuevo"],
+      "answer": "Malo"
+    },
+    {
+      "id": 4,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "pt",
+      "question": "Qual é a palavra em português que significa 'tooth' em inglês?",
+      "options": ["Dente", "Cérebro", "Olho", "Nariz"],
+      "answer": "Dente"
+    },
+    {
+      "id": 5,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "en",
+      "question": "What is the Spanish word for 'book'?",
+      "options": ["Libro", "Perro", "Gato", "Casa"],
+      "answer": "Libro"
+    },
+    {
+      "id": 6,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "es",
+      "question": "¿Cuál es el significado de la palabra 'gato'?",
+      "options": ["Perro", "Ratón", "Pájaro", "Gato"],
+      "answer": "Gato"
+    },
+    {
+      "id": 7,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "pt",
+      "question": "Qual é a tradução para o inglês da frase 'Eu amo você'?",
+      "options": ["I love you", "I hate you", "I miss you", "I need you"],
+      "answer": "I love you"
+    },
+    {
+      "id": 8,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "en",
+      "question": "What is the Portuguese word for 'hello'?",
+      "options": ["Hola", "Bonjour", "Ciao", "Olá"],
+      "answer": "Olá"
+    },
+    {
+      "id": 9,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "es",
+      "question": "¿Cuál es el verbo en la frase 'Yo como una manzana'?",
+      "options": ["Yo", "como", "una", "manzana"],
+      "answer": "como"
+    },
+    {
+      "id": 10,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "en",
+      "question": "What is the plural of the word 'child'?",
+      "options": ["Childs", "Childrens", "Childen", "Children"],
+      "answer": "Children"
+    },
+    {
+      "id": 11,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "en",
+      "question": "What is the Portuguese word for 'thank you'?",
+      "options": ["Obrigado", "Gracias", "Merci", "Thank you"],
+      "answer": "Obrigado"
+    },
+    {
+      "id": 12,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "es",
+      "question": "¿Cuál es el plural de la palabra 'perro'?",
+      "options": ["Perros", "Perroes", "Perres", "Perós"],
+      "answer": "Perros"
+    },
+    {
+      "id": 13,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "pt",
+      "question": "Qual é a tradução para o inglês da palavra 'água'?",
+      "options": ["Water", "Fire", "Air", "Earth"],
+      "answer": "Water"
+    },
+    {
+      "id": 14,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "en",
+      "question": "What is the Spanish word for 'house'?",
+      "options": ["Casa", "Carro", "Bicicleta", "Avión"],
+      "answer": "Casa"
+    },
+    {
+      "id": 15,
+      "category": "Linguagens",
+      "sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
+      "fieldStudy": ["Português", "Inglês", "Espanhol"],
+      "language": "es",
+      "question": "¿Cuál es el adjetivo en la frase 'La casa es grande'?",
+      "options": ["La", "casa", "es", "grande"],
+      "answer": "grande"
+    }
+  ],
+  "Leis": [
+    {
+      "id": 1,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "O que significa a sigla STF?",
+      "options": [
+        "Superior Tribunal de Fazenda",
+        "Supremo Tribunal Federal",
+        "Superintendência de Trânsito e Transportes",
+        "Sindicato dos Trabalhadores Ferroviários"
+      ],
+      "answer": "Supremo Tribunal Federal"
+    },
+    {
+      "id": 2,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Qual é a lei que instituiu o Código de Defesa do Consumidor no Brasil?",
+      "options": [
+        "Lei nº 8.078/90",
+        "Lei nº 9.876/99",
+        "Lei nº 10.046/01",
+        "Lei nº 11.256/05"
+      ],
+      "answer": "Lei nº 8.078/90"
+    },
+    {
+      "id": 3,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Qual é a idade mínima para votar no Brasil?",
+      "options": ["16 anos", "17 anos", "18 anos", "19 anos"],
+      "answer": "18 anos"
+    },
+    {
+      "id": 4,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Em que ano foi promulgada a Constituição Federal brasileira?",
+      "options": ["1987", "1988", "1989", "1990"],
+      "answer": "1988"
+    },
+    {
+      "id": 5,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Qual é o número de deputados federais no Brasil?",
+      "options": ["513", "500", "520", "517"],
+      "answer": "513"
+    },
+    {
+      "id": 6,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Qual é o nome da lei que estabelece as diretrizes e bases da educação nacional?",
+      "options": [
+        "Lei de Diretrizes e Bases da Educação Nacional",
+        "Lei de Diretrizes e Normas da Educação Nacional",
+        "Lei de Direitos e Bases da Educação Nacional",
+        "Lei de Normas e Bases da Educação Nacional"
+      ],
+      "answer": "Lei de Diretrizes e Bases da Educação Nacional"
+    },
+    {
+      "id": 7,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Qual é o nome da lei que define os crimes de responsabilidade do Presidente da República?",
+      "options": [
+        "Lei de Impeachment",
+        "Lei de Crimes Políticos",
+        "Lei de Responsabilidade do Presidente",
+        "Lei do Colarinho Branco"
+      ],
+      "answer": "Lei de Crimes Políticos"
+    },
+    {
+      "id": 8,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Qual é o artigo da Constituição Federal que garante a liberdade de expressão?",
+      "options": ["Artigo 5º", "Artigo 10º", "Artigo 15º", "Artigo 20º"],
+      "answer": "Artigo 5º"
+    },
+    {
+      "id": 9,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Qual é a lei que garante o direito à educação?",
+      "options": [
+        "Lei de Diretrizes e Bases da Educação",
+        "Lei do Bolsa Família",
+        "Lei de Incentivo à Cultura",
+        "Lei do Estágio"
+      ],
+      "answer": "Lei de Diretrizes e Bases da Educação"
+    },
+    {
+      "id": 10,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Qual é a lei que estabelece a jornada máxima de trabalho de 8 horas por dia?",
+      "options": [
+        "Lei do Descanso Semanal Remunerado",
+        "Lei do Salário Mínimo",
+        "Lei das Férias",
+        "Consolidação das Leis do Trabalho (CLT)"
+      ],
+      "answer": "Consolidação das Leis do Trabalho (CLT)"
+    },
+    {
+      "id": 11,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Qual é a lei que protege o consumidor contra práticas abusivas de empresas?",
+      "options": [
+        "Lei de Propriedade Industrial",
+        "Lei de Proteção à Propriedade Intelectual",
+        "Lei de Defesa do Consumidor",
+        "Lei de Patentes"
+      ],
+      "answer": "Lei de Defesa do Consumidor"
+    },
+    {
+      "id": 12,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Qual é a lei que prevê punição para o assédio sexual?",
+      "options": [
+        "Lei de Proteção à Mulher",
+        "Lei de Drogas",
+        "Lei de Abuso de Autoridade",
+        "Lei do Assédio Sexual"
+      ],
+      "answer": "Lei de Proteção à Mulher"
+    },
+    {
+      "id": 13,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Qual é a lei que estabelece as regras para o uso de medicamentos?",
+      "options": [
+        "Lei de Regulação Sanitária",
+        "Lei de Controle de Produtos Químicos",
+        "Lei de Vigilância Sanitária",
+        "Lei de Propriedade Industrial"
+      ],
+      "answer": "Lei de Regulação Sanitária"
+    },
+    {
+      "id": 14,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Qual é a lei que estabelece as regras para a exploração de petróleo e gás no Brasil?",
+      "options": [
+        "Lei de Diretrizes e Bases da Educação Nacional",
+        "Lei de Diretrizes e Bases da Saúde",
+        "Lei de Diretrizes e Bases da Política Energética",
+        "Lei de Diretrizes e Bases da Política Agrícola"
+      ],
+      "answer": "Lei de Diretrizes e Bases da Política Energética"
+    },
+    {
+      "id": 15,
+      "category": "Direito",
+      "sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
+      "fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+      "language": "pt",
+      "question": "Qual é a lei que estabelece as regras para a exploração de petróleo e gás no Brasil?",
+      "options": [
+        "Lei de Diretrizes e Bases da Educação Nacional",
+        "Lei de Diretrizes e Bases da Saúde",
+        "Lei de Diretrizes e Bases da Política Energética",
+        "Lei de Diretrizes e Bases da Política Agrícola"
+      ],
+      "answer": "Lei de Diretrizes e Bases da Política Energética"
+    }
+  ],
+  "Matematica": [
+    {
+      "id": 1,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é o valor de x na equação 2x + 3 = 11?",
+      "options": ["3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "id": 2,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é a solução da equação 5x - 7 = 18?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "5"
+    },
+    {
+      "id": 3,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
 
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é o valor de y na equação 4y + 12 = 28?",
-			"options": ["4", "5", "6", "7"],
-			"answer": "4"
-		},
-		{
-			"id": 4,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é a fórmula da área de um triângulo?",
-			"options": ["base x altura", "(base x altura)/2", "(base + altura) x 2", "(base - altura) x 2"],
-			"answer": "(base x altura)/2"
-		},
-		{
-			"id": 5,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é a fórmula da circunferência?",
-			"options": ["2 x raio", "raio x raio x pi", "2 x raio x pi", "raio x pi"],
-			"answer": "2 x raio x pi"
-		},
-		{
-			"id": 6,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é o nome da figura geométrica que possui 6 lados?",
-			"options": ["Quadrado", "Triângulo", "Hexágono", "Pentágono"],
-			"answer": "Hexágono"
-		},
-		{
-			"id": 7,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é o valor do seno de 30 graus?",
-			"options": ["0.5", "0.707", "0.866", "1"],
-			"answer": "0.5"
-		},
-		{
-			"id": 8,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é o valor do cosseno de 45 graus?",
-			"options": ["0.5", "0.707", "0.866", "1"],
-			"answer": "0.707"
-		},
-		{
-			"id": 9,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é o valor da tangente de 60 graus?",
-			"options": ["0.5", "0.707", "0.866", "1"],
-			"answer": "0.866"
-		},
-		{
-			"id": 10,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é a fórmula da função quadrática?",
-			"options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
-			"answer": "y = ax² + bx + c"
-		},
-		{
-			"id": 11,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é a fórmula da função linear?",
-			"options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
-			"answer": "y = ax² + bx"
-		},
-		{
-			"id": 12,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é a fórmula da função exponencial?",
-			"options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
-			"answer": "y = ax² + c"
-		},
-		{
-			"id": 13,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é o resultado da operação 8² - 6²?",
-			"options": ["28", "32", "40", "44"],
-			"answer": "28"
-		},
-		{
-			"id": 14,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Quantos lados possui um octógono?",
-			"options": ["5", "6", "7", "8"],
-			"answer": "8"
-		},
-		{
-			"id": 15,
-			"category": "Matemática",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
-			"language": "pt",
-			"question": "Qual é o resultado da operação 2² x 3²?",
-			"options": ["12", "18", "24", "36"],
-			"answer": "36"
-		}
-	],
-	"Programação": [
-		{
-			"id": 1,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
-			"language": "pt",
-			"question": "O que é um algoritmo?",
-			"options": [
-				"Um tipo de dado utilizado em programação",
-				"Uma linguagem de programação",
-				"Um conjunto de instruções ordenadas para resolver um problema",
-				"Um método para criar programas visualmente"
-			],
-			"answer": "Um conjunto de instruções ordenadas para resolver um problema"
-		},
-		{
-			"id": 2,
-			"category": "Lógica de Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
-			"language": "pt",
-			"question": "O que é um laço de repetição (loop) em programação?",
-			"options": [
-				"Um conjunto de instruções que só são executadas uma vez",
-				"Um erro de programação",
-				"Um conjunto de instruções que são executadas várias vezes",
-				"Um método para ordenar um conjunto de dados"
-			],
-			"answer": "Um conjunto de instruções que são executadas várias vezes"
-		},
-		{
-			"id": 3,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
-			"language": "pt",
-			"question": "Qual é a função do comando 'if' em programação?",
-			"options": [
-				"Executar uma instrução apenas se uma condição for verdadeira",
-				"Executar uma instrução apenas se uma condição for falsa",
-				"Executar uma instrução aleatória",
-				"Nenhuma das opções anteriores"
-			],
-			"answer": "Executar uma instrução apenas se uma condição for verdadeira"
-		},
-		{
-			"id": 4,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
-			"language": "pt",
-			"question": "O que é uma variável em programação?",
-			"options": [
-				"Um tipo de dado utilizado em programação",
-				"Uma linguagem de programação",
-				"Um conjunto de instruções ordenadas para resolver um problema",
-				"Um espaço na memória do computador para armazenar um valor"
-			],
-			"answer": "Um espaço na memória do computador para armazenar um valor"
-		},
-		{
-			"id": 5,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
-			"language": "pt",
-			"question": "Qual é a função do comando 'for' em programação?",
-			"options": [
-				"Executar uma instrução apenas se uma condição for verdadeira",
-				"Executar uma instrução apenas se uma condição for falsa",
-				"Executar um conjunto de instruções várias vezes",
-				"Nenhuma das opções anteriores"
-			],
-			"answer": "Executar um conjunto de instruções várias vezes"
-		},
-		{
-			"id": 6,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
-			"language": "pt",
-			"question": "O que é um vetor (array) em programação?",
-			"options": [
-				"Um tipo de dado utilizado em programação",
-				"Uma linguagem de programação",
-				"Um conjunto de instruções ordenadas para resolver um problema",
-				"Uma estrutura de dados que permite armazenar vários valores em uma única variável"
-			],
-			"answer": "Uma estrutura de dados que permite armazenar vários valores em uma única variável"
-		},
-		{
-			"id": 7,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
-			"language": "pt",
-			"question": "Qual é a estrutura de repetição que executa um bloco de código enquanto uma condição for verdadeira?",
-			"options": ["For", "While", "Do While", "If"],
-			"answer": "While"
-		},
-		{
-			"id": 8,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é o valor de y na equação 4y + 12 = 28?",
+      "options": ["4", "5", "6", "7"],
+      "answer": "4"
+    },
+    {
+      "id": 4,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é a fórmula da área de um triângulo?",
+      "options": [
+        "base x altura",
+        "(base x altura)/2",
+        "(base + altura) x 2",
+        "(base - altura) x 2"
+      ],
+      "answer": "(base x altura)/2"
+    },
+    {
+      "id": 5,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é a fórmula da circunferência?",
+      "options": ["2 x raio", "raio x raio x pi", "2 x raio x pi", "raio x pi"],
+      "answer": "2 x raio x pi"
+    },
+    {
+      "id": 6,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é o nome da figura geométrica que possui 6 lados?",
+      "options": ["Quadrado", "Triângulo", "Hexágono", "Pentágono"],
+      "answer": "Hexágono"
+    },
+    {
+      "id": 7,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é o valor do seno de 30 graus?",
+      "options": ["0.5", "0.707", "0.866", "1"],
+      "answer": "0.5"
+    },
+    {
+      "id": 8,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é o valor do cosseno de 45 graus?",
+      "options": ["0.5", "0.707", "0.866", "1"],
+      "answer": "0.707"
+    },
+    {
+      "id": 9,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é o valor da tangente de 60 graus?",
+      "options": ["0.5", "0.707", "0.866", "1"],
+      "answer": "0.866"
+    },
+    {
+      "id": 10,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é a fórmula da função quadrática?",
+      "options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
+      "answer": "y = ax² + bx + c"
+    },
+    {
+      "id": 11,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é a fórmula da função linear?",
+      "options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
+      "answer": "y = ax² + bx"
+    },
+    {
+      "id": 12,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é a fórmula da função exponencial?",
+      "options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
+      "answer": "y = ax² + c"
+    },
+    {
+      "id": 13,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é o resultado da operação 8² - 6²?",
+      "options": ["28", "32", "40", "44"],
+      "answer": "28"
+    },
+    {
+      "id": 14,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Quantos lados possui um octógono?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "8"
+    },
+    {
+      "id": 15,
+      "category": "Matemática",
+      "sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
+      "fieldStudy": ["Algebra", "Função", "Geometria"],
+      "language": "pt",
+      "question": "Qual é o resultado da operação 2² x 3²?",
+      "options": ["12", "18", "24", "36"],
+      "answer": "36"
+    }
+  ],
+  "Programação": [
+    {
+      "id": 1,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+      "language": "pt",
+      "question": "O que é um algoritmo?",
+      "options": [
+        "Um tipo de dado utilizado em programação",
+        "Uma linguagem de programação",
+        "Um conjunto de instruções ordenadas para resolver um problema",
+        "Um método para criar programas visualmente"
+      ],
+      "answer": "Um conjunto de instruções ordenadas para resolver um problema"
+    },
+    {
+      "id": 2,
+      "category": "Lógica de Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+      "language": "pt",
+      "question": "O que é um laço de repetição (loop) em programação?",
+      "options": [
+        "Um conjunto de instruções que só são executadas uma vez",
+        "Um erro de programação",
+        "Um conjunto de instruções que são executadas várias vezes",
+        "Um método para ordenar um conjunto de dados"
+      ],
+      "answer": "Um conjunto de instruções que são executadas várias vezes"
+    },
+    {
+      "id": 3,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+      "language": "pt",
+      "question": "Qual é a função do comando 'if' em programação?",
+      "options": [
+        "Executar uma instrução apenas se uma condição for verdadeira",
+        "Executar uma instrução apenas se uma condição for falsa",
+        "Executar uma instrução aleatória",
+        "Nenhuma das opções anteriores"
+      ],
+      "answer": "Executar uma instrução apenas se uma condição for verdadeira"
+    },
+    {
+      "id": 4,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+      "language": "pt",
+      "question": "O que é uma variável em programação?",
+      "options": [
+        "Um tipo de dado utilizado em programação",
+        "Uma linguagem de programação",
+        "Um conjunto de instruções ordenadas para resolver um problema",
+        "Um espaço na memória do computador para armazenar um valor"
+      ],
+      "answer": "Um espaço na memória do computador para armazenar um valor"
+    },
+    {
+      "id": 5,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+      "language": "pt",
+      "question": "Qual é a função do comando 'for' em programação?",
+      "options": [
+        "Executar uma instrução apenas se uma condição for verdadeira",
+        "Executar uma instrução apenas se uma condição for falsa",
+        "Executar um conjunto de instruções várias vezes",
+        "Nenhuma das opções anteriores"
+      ],
+      "answer": "Executar um conjunto de instruções várias vezes"
+    },
+    {
+      "id": 6,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+      "language": "pt",
+      "question": "O que é um vetor (array) em programação?",
+      "options": [
+        "Um tipo de dado utilizado em programação",
+        "Uma linguagem de programação",
+        "Um conjunto de instruções ordenadas para resolver um problema",
+        "Uma estrutura de dados que permite armazenar vários valores em uma única variável"
+      ],
+      "answer": "Uma estrutura de dados que permite armazenar vários valores em uma única variável"
+    },
+    {
+      "id": 7,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+      "language": "pt",
+      "question": "Qual é a estrutura de repetição que executa um bloco de código enquanto uma condição for verdadeira?",
+      "options": ["For", "While", "Do While", "If"],
+      "answer": "While"
+    },
+    {
+      "id": 8,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
 
-			"language": "pt",
-			"question": "Qual é a estrutura de repetição que executa um bloco de código pelo menos uma vez e depois enquanto uma condição for verdadeira?",
-			"options": ["For", "While", "Do While", "If"],
-			"answer": "Do While"
-		},
-		{
-			"id": 9,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
+      "language": "pt",
+      "question": "Qual é a estrutura de repetição que executa um bloco de código pelo menos uma vez e depois enquanto uma condição for verdadeira?",
+      "options": ["For", "While", "Do While", "If"],
+      "answer": "Do While"
+    },
+    {
+      "id": 9,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
 
-			"language": "pt",
-			"question": "Qual é a estrutura de repetição que executa um bloco de código um número determinado de vezes?",
-			"options": ["For", "While", "Do While", "If"],
-			"answer": "For"
-		},
-		{
-			"id": 10,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
-			"language": "pt",
-			"question": "Qual é a estrutura de decisão que executa um bloco de código se uma condição for verdadeira?",
-			"options": ["For", "While", "Do While", "If"],
-			"answer": "If"
-		},
-		{
-			"id": 11,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
-			"language": "pt",
-			"question": "Qual é a estrutura de decisão que executa um bloco de código se uma condição for verdadeira e outro bloco de código se a condição for falsa?",
-			"options": ["For", "While", "Do While", "If"],
-			"answer": "If"
-		},
-		{
-			"id": 12,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
-			"language": "pt",
-			"question": "O que significa a sigla SQL?",
-			"options": [
-				"Structured Query Language",
-				"Simple Query Language",
-				"Standard Query Language",
-				"System Query Language"
-			],
-			"answer": "Structured Query Language"
-		},
-		{
-			"id": 13,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
-			"language": "pt",
-			"question": "O que é uma variável em programação?",
-			"options": [
-				"Um comando que indica a ordem de execução do programa",
-				"Um elemento que armazena um valor na memória",
-				"Uma instrução que imprime informações na tela",
-				"Um operador que compara dois valores"
-			],
-			"answer": "Um elemento que armazena um valor na memória"
-		},
-		{
-			"id": 14,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
-			"language": "pt",
-			"question": "Qual é o resultado da seguinte expressão booleana? var x = true; var y = false;var z = (x && y) || (!x && !y);",
-			"options": [
-				"true",
-				"false",
-				"undefined",
-				"null"
-			],
-			"answer": "A linguagem compilada é transformada em código de máquina antes da execução, enquanto a interpretada é executada linha a linha"
-		},
-		{
-			"id": 15,
-			"category": "Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
-			"language": "pt",
-			"question": "O que é uma estrutura de repetição em programação?",
-			"options": [
-				"Um conjunto de instruções que são executadas apenas uma vez",
-				"Um conjunto de instruções que são executadas até que uma condição seja satisfeita",
-				"Um conjunto de instruções que são executadas em sequência",
-				"Um conjunto de instruções que são executadas em paralelo"
-			],
-			"answer": "Um conjunto de instruções que são executadas até que uma condição seja satisfeita"
-		}
-	],
-	"Geral": [
-		{
-			"id": 1,
+      "language": "pt",
+      "question": "Qual é a estrutura de repetição que executa um bloco de código um número determinado de vezes?",
+      "options": ["For", "While", "Do While", "If"],
+      "answer": "For"
+    },
+    {
+      "id": 10,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+      "language": "pt",
+      "question": "Qual é a estrutura de decisão que executa um bloco de código se uma condição for verdadeira?",
+      "options": ["For", "While", "Do While", "If"],
+      "answer": "If"
+    },
+    {
+      "id": 11,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+      "language": "pt",
+      "question": "Qual é a estrutura de decisão que executa um bloco de código se uma condição for verdadeira e outro bloco de código se a condição for falsa?",
+      "options": ["For", "While", "Do While", "If"],
+      "answer": "If"
+    },
+    {
+      "id": 12,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+      "language": "pt",
+      "question": "O que significa a sigla SQL?",
+      "options": [
+        "Structured Query Language",
+        "Simple Query Language",
+        "Standard Query Language",
+        "System Query Language"
+      ],
+      "answer": "Structured Query Language"
+    },
+    {
+      "id": 13,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+      "language": "pt",
+      "question": "O que é uma variável em programação?",
+      "options": [
+        "Um comando que indica a ordem de execução do programa",
+        "Um elemento que armazena um valor na memória",
+        "Uma instrução que imprime informações na tela",
+        "Um operador que compara dois valores"
+      ],
+      "answer": "Um elemento que armazena um valor na memória"
+    },
+    {
+      "id": 14,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+      "language": "pt",
+      "question": "Qual é o resultado da seguinte expressão booleana? var x = true; var y = false;var z = (x && y) || (!x && !y);",
+      "options": ["true", "false", "undefined", "null"],
+      "answer": "false"
+    },
+    {
+      "id": 15,
+      "category": "Programação",
+      "sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
+      "fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+      "language": "pt",
+      "question": "O que é uma estrutura de repetição em programação?",
+      "options": [
+        "Um conjunto de instruções que são executadas apenas uma vez",
+        "Um conjunto de instruções que são executadas até que uma condição seja satisfeita",
+        "Um conjunto de instruções que são executadas em sequência",
+        "Um conjunto de instruções que são executadas em paralelo"
+      ],
+      "answer": "Um conjunto de instruções que são executadas até que uma condição seja satisfeita"
+    }
+  ],
+  "Geral": [
+    {
+      "id": 1,
 
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica "],
-			"language": "pt",
-			"question": "O que é um algoritmo?",
-			"options": [
-				"Um tipo de dado utilizado em programação",
-				"Uma linguagem de programação",
-				"Um conjunto de instruções ordenadas para resolver um problema",
-				"Um método para criar programas visualmente"
-			],
-			"answer": "Um conjunto de instruções ordenadas para resolver um problema"
-		},
-		{
-			"id": 2,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica "],
+      "language": "pt",
+      "question": "O que é um algoritmo?",
+      "options": [
+        "Um tipo de dado utilizado em programação",
+        "Uma linguagem de programação",
+        "Um conjunto de instruções ordenadas para resolver um problema",
+        "Um método para criar programas visualmente"
+      ],
+      "answer": "Um conjunto de instruções ordenadas para resolver um problema"
+    },
+    {
+      "id": 2,
 
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica "],
-			"language": "pt",
-			"question": "O que é um laço de repetição (loop) em programação?",
-			"options": [
-				"Um conjunto de instruções que só são executadas uma vez",
-				"Um erro de programação",
-				"Um conjunto de instruções que são executadas várias vezes",
-				"Um método para ordenar um conjunto de dados"
-			],
-			"answer": "Um conjunto de instruções que são executadas várias vezes"
-		},
-		{
-			"id": 3,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica "],
+      "language": "pt",
+      "question": "O que é um laço de repetição (loop) em programação?",
+      "options": [
+        "Um conjunto de instruções que só são executadas uma vez",
+        "Um erro de programação",
+        "Um conjunto de instruções que são executadas várias vezes",
+        "Um método para ordenar um conjunto de dados"
+      ],
+      "answer": "Um conjunto de instruções que são executadas várias vezes"
+    },
+    {
+      "id": 3,
 
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a função do comando 'if' em programação?",
-			"options": [
-				"Executar uma instrução apenas se uma condição for verdadeira",
-				"Executar uma instrução apenas se uma condição for falsa",
-				"Executar uma instrução aleatória",
-				"Nenhuma das opções anteriores"
-			],
-			"answer": "Executar uma instrução apenas se uma condição for verdadeira"
-		},
-		{
-			"id": 4,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a função do comando 'if' em programação?",
+      "options": [
+        "Executar uma instrução apenas se uma condição for verdadeira",
+        "Executar uma instrução apenas se uma condição for falsa",
+        "Executar uma instrução aleatória",
+        "Nenhuma das opções anteriores"
+      ],
+      "answer": "Executar uma instrução apenas se uma condição for verdadeira"
+    },
+    {
+      "id": 4,
 
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "O que é uma variável em programação?",
-			"options": [
-				"Um tipo de dado utilizado em programação",
-				"Uma linguagem de programação",
-				"Um conjunto de instruções ordenadas para resolver um problema",
-				"Um espaço na memória do computador para armazenar um valor"
-			],
-			"answer": "Um espaço na memória do computador para armazenar um valor"
-		},
-		{
-			"id": 5,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "O que é uma variável em programação?",
+      "options": [
+        "Um tipo de dado utilizado em programação",
+        "Uma linguagem de programação",
+        "Um conjunto de instruções ordenadas para resolver um problema",
+        "Um espaço na memória do computador para armazenar um valor"
+      ],
+      "answer": "Um espaço na memória do computador para armazenar um valor"
+    },
+    {
+      "id": 5,
 
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a função do comando 'for' em programação?",
-			"options": [
-				"Executar uma instrução apenas se uma condição for verdadeira",
-				"Executar uma instrução apenas se uma condição for falsa",
-				"Executar um conjunto de instruções várias vezes",
-				"Nenhuma das opções anteriores"
-			],
-			"answer": "Executar um conjunto de instruções várias vezes"
-		},
-		{
-			"id": 6,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a função do comando 'for' em programação?",
+      "options": [
+        "Executar uma instrução apenas se uma condição for verdadeira",
+        "Executar uma instrução apenas se uma condição for falsa",
+        "Executar um conjunto de instruções várias vezes",
+        "Nenhuma das opções anteriores"
+      ],
+      "answer": "Executar um conjunto de instruções várias vezes"
+    },
+    {
+      "id": 6,
 
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "O que é um vetor (array) em programação?",
-			"options": [
-				"Um tipo de dado utilizado em programação",
-				"Uma linguagem de programação",
-				"Um conjunto de instruções ordenadas para resolver um problema",
-				"Uma estrutura de dados que permite armazenar vários valores em uma única variável"
-			],
-			"answer": "Uma estrutura de dados que permite armazenar vários valores em uma única variável"
-		},
-		{
-			"id": 7,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "O que é um vetor (array) em programação?",
+      "options": [
+        "Um tipo de dado utilizado em programação",
+        "Uma linguagem de programação",
+        "Um conjunto de instruções ordenadas para resolver um problema",
+        "Uma estrutura de dados que permite armazenar vários valores em uma única variável"
+      ],
+      "answer": "Uma estrutura de dados que permite armazenar vários valores em uma única variável"
+    },
+    {
+      "id": 7,
 
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a estrutura de repetição que executa um bloco de código enquanto uma condição for verdadeira?",
-			"options": ["For", "While", "Do While", "If"],
-			"answer": "While"
-		},
-		{
-			"id": 8,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a estrutura de repetição que executa um bloco de código enquanto uma condição for verdadeira?",
+      "options": ["For", "While", "Do While", "If"],
+      "answer": "While"
+    },
+    {
+      "id": 8,
 
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a estrutura de repetição que executa um bloco de código pelo menos uma vez e depois enquanto uma condição for verdadeira?",
-			"options": ["For", "While", "Do While", "If"],
-			"answer": "Do While"
-		},
-		{
-			"id": 9,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a estrutura de repetição que executa um bloco de código pelo menos uma vez e depois enquanto uma condição for verdadeira?",
+      "options": ["For", "While", "Do While", "If"],
+      "answer": "Do While"
+    },
+    {
+      "id": 9,
 
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a estrutura de repetição que executa um bloco de código um número determinado de vezes?",
-			"options": ["For", "While", "Do While", "If"],
-			"answer": "For"
-		},
-		{
-			"id": 10,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a estrutura de decisão que executa um bloco de código se uma condição for verdadeira?",
-			"options": ["For", "While", "Do While", "If"],
-			"answer": "If"
-		},
-		{
-			"id": 11,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a estrutura de decisão que executa um bloco de código se uma condição for verdadeira e outro bloco de código se a condição for falsa?",
-			"options": ["For", "While", "Do While", "If"],
-			"answer": "If"
-		},
-		{
-			"id": 12,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "O que significa a sigla SQL?",
-			"options": [
-				"Structured Query Language",
-				"Simple Query Language",
-				"Standard Query Language",
-				"System Query Language"
-			],
-			"answer": "Structured Query Language"
-		},
-		{
-			"id": 13,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "O que é uma variável em programação?",
-			"options": [
-				"Um comando que indica a ordem de execução do programa",
-				"Um elemento que armazena um valor na memória",
-				"Uma instrução que imprime informações na tela",
-				"Um operador que compara dois valores"
-			],
-			"answer": "Um elemento que armazena um valor na memória"
-		},
-		{
-			"id": 14,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é o resultado da seguinte expressão booleana? var x = true; var y = false;var z = (x && y) || (!x && !y);",
-			"options": [
-				" true",
-				"false",
-				"undefined",
-				"null"
-			],
-			"answer": "false"
-		},
-		{
-			"id": 15,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "O que é uma estrutura de repetição em programação?",
-			"options": [
-				"Um conjunto de instruções que são executadas apenas uma vez",
-				"Um conjunto de instruções que são executadas até que uma condição seja satisfeita",
-				"Um conjunto de instruções que são executadas em sequência",
-				"Um conjunto de instruções que são executadas em paralelo"
-			],
-			"answer": "Um conjunto de instruções que são executadas até que uma condição seja satisfeita"
-		},
-		{
-			"id": 16,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é o valor de x na equação 2x + 3 = 11?",
-			"options": ["3", "4", "5", "6"],
-			"answer": "4"
-		},
-		{
-			"id": 17,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a solução da equação 5x - 7 = 18?",
-			"options": ["5", "6", "7", "8"],
-			"answer": "5"
-		},
-		{
-			"id": 18,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é o valor de y na equação 4y + 12 = 28?",
-			"options": ["4", "5", "6", "7"],
-			"answer": "4"
-		},
-		{
-			"id": 19,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a fórmula da área de um triângulo?",
-			"options": ["base x altura", "(base x altura)/2", "(base + altura) x 2", "(base - altura) x 2"],
-			"answer": "(base x altura)/2"
-		},
-		{
-			"id": 20,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a fórmula da circunferência?",
-			"options": ["2 x raio", "raio x raio x pi", "2 x raio x pi", "raio x pi"],
-			"answer": "2 x raio x pi"
-		},
-		{
-			"id": 21,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é o nome da figura geométrica que possui 6 lados?",
-			"options": ["Quadrado", "Triângulo", "Hexágono", "Pentágono"],
-			"answer": "Hexágono"
-		},
-		{
-			"id": 22,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é o valor do seno de 30 graus?",
-			"options": ["0.5", "0.707", "0.866", "1"],
-			"answer": "0.5"
-		},
-		{
-			"id": 23,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é o valor do cosseno de 45 graus?",
-			"options": ["0.5", "0.707", "0.866", "1"],
-			"answer": "0.707"
-		},
-		{
-			"id": 24,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a estrutura de repetição que executa um bloco de código um número determinado de vezes?",
+      "options": ["For", "While", "Do While", "If"],
+      "answer": "For"
+    },
+    {
+      "id": 10,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a estrutura de decisão que executa um bloco de código se uma condição for verdadeira?",
+      "options": ["For", "While", "Do While", "If"],
+      "answer": "If"
+    },
+    {
+      "id": 11,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a estrutura de decisão que executa um bloco de código se uma condição for verdadeira e outro bloco de código se a condição for falsa?",
+      "options": ["For", "While", "Do While", "If"],
+      "answer": "If"
+    },
+    {
+      "id": 12,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "O que significa a sigla SQL?",
+      "options": [
+        "Structured Query Language",
+        "Simple Query Language",
+        "Standard Query Language",
+        "System Query Language"
+      ],
+      "answer": "Structured Query Language"
+    },
+    {
+      "id": 13,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "O que é uma variável em programação?",
+      "options": [
+        "Um comando que indica a ordem de execução do programa",
+        "Um elemento que armazena um valor na memória",
+        "Uma instrução que imprime informações na tela",
+        "Um operador que compara dois valores"
+      ],
+      "answer": "Um elemento que armazena um valor na memória"
+    },
+    {
+      "id": 14,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o resultado da seguinte expressão booleana? var x = true; var y = false;var z = (x && y) || (!x && !y);",
+      "options": [" true", "false", "undefined", "null"],
+      "answer": "false"
+    },
+    {
+      "id": 15,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "O que é uma estrutura de repetição em programação?",
+      "options": [
+        "Um conjunto de instruções que são executadas apenas uma vez",
+        "Um conjunto de instruções que são executadas até que uma condição seja satisfeita",
+        "Um conjunto de instruções que são executadas em sequência",
+        "Um conjunto de instruções que são executadas em paralelo"
+      ],
+      "answer": "Um conjunto de instruções que são executadas até que uma condição seja satisfeita"
+    },
+    {
+      "id": 16,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o valor de x na equação 2x + 3 = 11?",
+      "options": ["3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "id": 17,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a solução da equação 5x - 7 = 18?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "5"
+    },
+    {
+      "id": 18,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o valor de y na equação 4y + 12 = 28?",
+      "options": ["4", "5", "6", "7"],
+      "answer": "4"
+    },
+    {
+      "id": 19,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a fórmula da área de um triângulo?",
+      "options": [
+        "base x altura",
+        "(base x altura)/2",
+        "(base + altura) x 2",
+        "(base - altura) x 2"
+      ],
+      "answer": "(base x altura)/2"
+    },
+    {
+      "id": 20,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a fórmula da circunferência?",
+      "options": ["2 x raio", "raio x raio x pi", "2 x raio x pi", "raio x pi"],
+      "answer": "2 x raio x pi"
+    },
+    {
+      "id": 21,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o nome da figura geométrica que possui 6 lados?",
+      "options": ["Quadrado", "Triângulo", "Hexágono", "Pentágono"],
+      "answer": "Hexágono"
+    },
+    {
+      "id": 22,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o valor do seno de 30 graus?",
+      "options": ["0.5", "0.707", "0.866", "1"],
+      "answer": "0.5"
+    },
+    {
+      "id": 23,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o valor do cosseno de 45 graus?",
+      "options": ["0.5", "0.707", "0.866", "1"],
+      "answer": "0.707"
+    },
+    {
+      "id": 24,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 
-			"language": "pt",
-			"question": "Qual é o valor da tangente de 60 graus?",
-			"options": ["0.5", "0.707", "0.866", "1"],
-			"answer": "0.866"
-		},
-		{
-			"id": 25,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a fórmula da função quadrática?",
-			"options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
-			"answer": "y = ax² + bx + c"
-		},
-		{
-			"id": 26,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o valor da tangente de 60 graus?",
+      "options": ["0.5", "0.707", "0.866", "1"],
+      "answer": "0.866"
+    },
+    {
+      "id": 25,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a fórmula da função quadrática?",
+      "options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
+      "answer": "y = ax² + bx + c"
+    },
+    {
+      "id": 26,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 
-			"language": "pt",
-			"question": "Qual é a fórmula da função linear?",
-			"options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
-			"answer": "y = ax² + bx"
-		},
-		{
-			"id": 27,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a fórmula da função linear?",
+      "options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
+      "answer": "y = ax² + bx"
+    },
+    {
+      "id": 27,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 
-			"language": "pt",
-			"question": "Qual é a fórmula da função exponencial?",
-			"options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
-			"answer": "y = ax² + c"
-		},
-		{
-			"id": 28,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é o resultado da operação 8² - 6²?",
-			"options": ["28", "32", "40", "44"],
-			"answer": "28"
-		},
-		{
-			"id": 29,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Direito"],
-			"language": "pt",
-			"question": "Quantos lados possui um octógono?",
-			"options": ["5", "6", "7", "8"],
-			"answer": "8"
-		},
-		{
-			"id": 30,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é o resultado da operação 2² x 3²?",
-			"options": ["12", "18", "24", "36"],
-			"answer": "36"
-		},
-		{
-			"id": 31,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "O que significa a sigla STF?",
-			"options": [
-				"Superior Tribunal de Fazenda",
-				"Supremo Tribunal Federal",
-				"Superintendência de Trânsito e Transportes",
-				"Sindicato dos Trabalhadores Ferroviários"
-			],
-			"answer": "Supremo Tribunal Federal"
-		},
-		{
-			"id": 32,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a lei que instituiu o Código de Defesa do Consumidor no Brasil?",
-			"options": ["Lei nº 8.078/90", "Lei nº 9.876/99", "Lei nº 10.046/01", "Lei nº 11.256/05"],
-			"answer": "Lei nº 8.078/90"
-		},
-		{
-			"id": 33,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a idade mínima para votar no Brasil?",
-			"options": ["16 anos", "17 anos", "18 anos", "19 anos"],
-			"answer": "18 anos"
-		},
-		{
-			"id": 34,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Em que ano foi promulgada a Constituição Federal brasileira?",
-			"options": ["1987", "1988", "1989", "1990"],
-			"answer": "1988"
-		},
-		{
-			"id": 35,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é o número de deputados federais no Brasil?",
-			"options": ["513", "513", "513", "513"],
-			"answer": "513"
-		},
-		{
-			"id": 36,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é o nome da lei que estabelece as diretrizes e bases da educação nacional?",
-			"options": [
-				"Lei de Diretrizes e Bases da Educação Nacional",
-				"Lei de Diretrizes e Normas da Educação Nacional",
-				"Lei de Logica de direitos e Bases da Educação Nacional",
-				"Lei de Normas e Bases da Educação Nacional"
-			],
-			"answer": "Lei de Diretrizes e Bases da Educação Nacional"
-		},
-		{
-			"id": 37,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é o nome da lei que define os crimes de responsabilidade do Presidente da República?",
-			"options": [
-				"Lei de Impeachment",
-				"Lei de Crimes Políticos",
-				"Lei de Responsabilidade do Presidente",
-				"Lei do Colarinho Branco"
-			],
-			"answer": "Lei de Crimes Políticos"
-		},
-		{
-			"id": 38,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é o artigo da Constituição Federal que garante a liberdade de expressão?",
-			"options": ["Artigo 5º", "Artigo 10º", "Artigo 15º", "Artigo 20º"],
-			"answer": "Artigo 5º"
-		},
-		{
-			"id": 39,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a lei que garante o direito à educação?",
-			"options": [
-				"Lei de Diretrizes e Bases da Educação",
-				"Lei do Bolsa Família",
-				"Lei de Incentivo à Cultura",
-				"Lei do Estágio"
-			],
-			"answer": "Lei de Diretrizes e Bases da Educação"
-		},
-		{
-			"id": 40,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a lei que estabelece a jornada máxima de trabalho de 8 horas por dia?",
-			"options": [
-				"Lei do Descanso Semanal Remunerado",
-				"Lei do Salário Mínimo",
-				"Lei das Férias",
-				"Consolidação das Leis do Trabalho (CLT)"
-			],
-			"answer": "Consolidação das Leis do Trabalho (CLT)"
-		},
-		{
-			"id": 41,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a lei que protege o consumidor contra práticas abusivas de empresas?",
-			"options": [
-				"Lei de Propriedade Industrial",
-				"Lei de Proteção à Propriedade Intelectual",
-				"Lei de Defesa do Consumidor",
-				"Lei de Patentes"
-			],
-			"answer": "Lei de Defesa do Consumidor"
-		},
-		{
-			"id": 42,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a lei que prevê punição para o assédio sexual?",
-			"options": ["Lei de Proteção à Mulher", "Lei de Drogas", "Lei de Abuso de Autoridade", "Lei do Assédio Sexual"],
-			"answer": "Lei de Proteção à Mulher"
-		},
-		{
-			"id": 43,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a lei que estabelece as regras para o uso de medicamentos?",
-			"options": [
-				"Lei de Regulação Sanitária",
-				"Lei de Controle de Produtos Químicos",
-				"Lei de Vigilância Sanitária",
-				"Lei de Propriedade Industrial"
-			],
-			"answer": "Lei de Regulação Sanitária"
-		},
-		{
-			"id": 44,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a lei que estabelece as regras para a exploração de petróleo e gás no Brasil?",
-			"options": [
-				"Lei de Diretrizes e Bases da Educação Nacional",
-				"Lei de Diretrizes e Bases da Saúde",
-				"Lei de Diretrizes e Bases da Política Energética",
-				"Lei de Diretrizes e Bases da Política Agrícola"
-			],
-			"answer": "Lei de Diretrizes e Bases da Política Energética"
-		},
-		{
-			"id": 45,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a lei que estabelece as regras para a exploração de petróleo e gás no Brasil?",
-			"options": [
-				"Lei de Diretrizes e Bases da Educação Nacional",
-				"Lei de Diretrizes e Bases da Saúde",
-				"Lei de Diretrizes e Bases da Política Energética",
-				"Lei de Diretrizes e Bases da Política Agrícola"
-			],
-			"answer": "Lei de Diretrizes e Bases da Política Energética"
-		},
-		{
-			"id": 46,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é o antônimo da palavra 'amor'?",
-			"options": ["Odor", "Alegria", "Raiva", "Tristeza"],
-			"answer": "Raiva"
-		},
-		{
-			"id": 47,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "en",
-			"question": "What is the opposite of the word 'happy'?",
-			"options": ["Sad", "Angry", "Tired", "Excited"],
-			"answer": "Sad"
-		},
-		{
-			"id": 48,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "es",
-			"question": "¿Cuál es el antónimo de la palabra 'bueno'?",
-			"options": ["Malo", "Feo", "Grande", "Nuevo"],
-			"answer": "Malo"
-		},
-		{
-			"id": 49,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a palavra em português que significa 'tooth' em inglês?",
-			"options": ["Dente", "Cérebro", "Olho", "Nariz"],
-			"answer": "Dente"
-		},
-		{
-			"id": 50,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "en",
-			"question": "What is the Spanish word for 'book'?",
-			"options": ["Libro", "Perro", "Gato", "Casa"],
-			"answer": "Libro"
-		},
-		{
-			"id": 51,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "es",
-			"question": "¿Cuál es el significado de la palabra 'gato'?",
-			"options": ["Perro", "Ratón", "Pájaro", "Gato"],
-			"answer": "Gato"
-		},
-		{
-			"id": 52,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a tradução para o inglês da frase 'Eu amo você'?",
-			"options": ["I love you", "I hate you", "I miss you", "I need you"],
-			"answer": "I love you"
-		},
-		{
-			"id": 53,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "en",
-			"question": "What is the Portuguese word for 'hello'?",
-			"options": ["Hola", "Bonjour", "Ciao", "Olá"],
-			"answer": "Olá"
-		},
-		{
-			"id": 54,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "es",
-			"question": "¿Cuál es el verbo en la frase 'Yo como una manzana'?",
-			"options": ["Yo", "como", "una", "manzana"],
-			"answer": "como"
-		},
-		{
-			"id": 55,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "en",
-			"question": "What is the plural of the word 'child'?",
-			"options": ["Childs", "Childrens", "Childen", "Children"],
-			"answer": "Children"
-		},
-		{
-			"id": 56,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "en",
-			"question": "What is the Portuguese word for 'thank you'?",
-			"options": ["Obrigado", "Gracias", "Merci", "Thank you"],
-			"answer": "Obrigado"
-		},
-		{
-			"id": 57,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "es",
-			"question": "¿Cuál es el plural de la palabra 'perro'?",
-			"options": ["Perros", "Perroes", "Perres", "Perós"],
-			"answer": "Perros"
-		},
-		{
-			"id": 58,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "pt",
-			"question": "Qual é a tradução para o inglês da palavra 'água'?",
-			"options": ["Water", "Fire", "Air", "Earth"],
-			"answer": "Water"
-		},
-		{
-			"id": 59,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "en",
-			"question": "What is the Spanish word for 'house'?",
-			"options": ["Casa", "Carro", "Bicicleta", "Avión"],
-			"answer": "Casa"
-		},
-		{
-			"id": 60,
-			"category": "Conhecimento Geral",
-			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
-			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
-			"language": "es",
-			"question": "¿Cuál es el adjetivo en la frase 'La casa es grande'?",
-			"options": ["La", "casa", "es", "grande"],
-			"answer": "grande"
-		}
-	]
+      "language": "pt",
+      "question": "Qual é a fórmula da função exponencial?",
+      "options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
+      "answer": "y = ax² + c"
+    },
+    {
+      "id": 28,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o resultado da operação 8² - 6²?",
+      "options": ["28", "32", "40", "44"],
+      "answer": "28"
+    },
+    {
+      "id": 29,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Direito"],
+      "language": "pt",
+      "question": "Quantos lados possui um octógono?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "8"
+    },
+    {
+      "id": 30,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o resultado da operação 2² x 3²?",
+      "options": ["12", "18", "24", "36"],
+      "answer": "36"
+    },
+    {
+      "id": 31,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "O que significa a sigla STF?",
+      "options": [
+        "Superior Tribunal de Fazenda",
+        "Supremo Tribunal Federal",
+        "Superintendência de Trânsito e Transportes",
+        "Sindicato dos Trabalhadores Ferroviários"
+      ],
+      "answer": "Supremo Tribunal Federal"
+    },
+    {
+      "id": 32,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a lei que instituiu o Código de Defesa do Consumidor no Brasil?",
+      "options": [
+        "Lei nº 8.078/90",
+        "Lei nº 9.876/99",
+        "Lei nº 10.046/01",
+        "Lei nº 11.256/05"
+      ],
+      "answer": "Lei nº 8.078/90"
+    },
+    {
+      "id": 33,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a idade mínima para votar no Brasil?",
+      "options": ["16 anos", "17 anos", "18 anos", "19 anos"],
+      "answer": "18 anos"
+    },
+    {
+      "id": 34,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Em que ano foi promulgada a Constituição Federal brasileira?",
+      "options": ["1987", "1988", "1989", "1990"],
+      "answer": "1988"
+    },
+    {
+      "id": 35,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o número de deputados federais no Brasil?",
+      "options": ["513", "513", "513", "513"],
+      "answer": "513"
+    },
+    {
+      "id": 36,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o nome da lei que estabelece as diretrizes e bases da educação nacional?",
+      "options": [
+        "Lei de Diretrizes e Bases da Educação Nacional",
+        "Lei de Diretrizes e Normas da Educação Nacional",
+        "Lei de Logica de direitos e Bases da Educação Nacional",
+        "Lei de Normas e Bases da Educação Nacional"
+      ],
+      "answer": "Lei de Diretrizes e Bases da Educação Nacional"
+    },
+    {
+      "id": 37,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o nome da lei que define os crimes de responsabilidade do Presidente da República?",
+      "options": [
+        "Lei de Impeachment",
+        "Lei de Crimes Políticos",
+        "Lei de Responsabilidade do Presidente",
+        "Lei do Colarinho Branco"
+      ],
+      "answer": "Lei de Crimes Políticos"
+    },
+    {
+      "id": 38,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o artigo da Constituição Federal que garante a liberdade de expressão?",
+      "options": ["Artigo 5º", "Artigo 10º", "Artigo 15º", "Artigo 20º"],
+      "answer": "Artigo 5º"
+    },
+    {
+      "id": 39,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a lei que garante o direito à educação?",
+      "options": [
+        "Lei de Diretrizes e Bases da Educação",
+        "Lei do Bolsa Família",
+        "Lei de Incentivo à Cultura",
+        "Lei do Estágio"
+      ],
+      "answer": "Lei de Diretrizes e Bases da Educação"
+    },
+    {
+      "id": 40,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a lei que estabelece a jornada máxima de trabalho de 8 horas por dia?",
+      "options": [
+        "Lei do Descanso Semanal Remunerado",
+        "Lei do Salário Mínimo",
+        "Lei das Férias",
+        "Consolidação das Leis do Trabalho (CLT)"
+      ],
+      "answer": "Consolidação das Leis do Trabalho (CLT)"
+    },
+    {
+      "id": 41,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a lei que protege o consumidor contra práticas abusivas de empresas?",
+      "options": [
+        "Lei de Propriedade Industrial",
+        "Lei de Proteção à Propriedade Intelectual",
+        "Lei de Defesa do Consumidor",
+        "Lei de Patentes"
+      ],
+      "answer": "Lei de Defesa do Consumidor"
+    },
+    {
+      "id": 42,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a lei que prevê punição para o assédio sexual?",
+      "options": [
+        "Lei de Proteção à Mulher",
+        "Lei de Drogas",
+        "Lei de Abuso de Autoridade",
+        "Lei do Assédio Sexual"
+      ],
+      "answer": "Lei de Proteção à Mulher"
+    },
+    {
+      "id": 43,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a lei que estabelece as regras para o uso de medicamentos?",
+      "options": [
+        "Lei de Regulação Sanitária",
+        "Lei de Controle de Produtos Químicos",
+        "Lei de Vigilância Sanitária",
+        "Lei de Propriedade Industrial"
+      ],
+      "answer": "Lei de Regulação Sanitária"
+    },
+    {
+      "id": 44,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a lei que estabelece as regras para a exploração de petróleo e gás no Brasil?",
+      "options": [
+        "Lei de Diretrizes e Bases da Educação Nacional",
+        "Lei de Diretrizes e Bases da Saúde",
+        "Lei de Diretrizes e Bases da Política Energética",
+        "Lei de Diretrizes e Bases da Política Agrícola"
+      ],
+      "answer": "Lei de Diretrizes e Bases da Política Energética"
+    },
+    {
+      "id": 45,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a lei que estabelece as regras para a exploração de petróleo e gás no Brasil?",
+      "options": [
+        "Lei de Diretrizes e Bases da Educação Nacional",
+        "Lei de Diretrizes e Bases da Saúde",
+        "Lei de Diretrizes e Bases da Política Energética",
+        "Lei de Diretrizes e Bases da Política Agrícola"
+      ],
+      "answer": "Lei de Diretrizes e Bases da Política Energética"
+    },
+    {
+      "id": 46,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é o antônimo da palavra 'amor'?",
+      "options": ["Odor", "Alegria", "Raiva", "Tristeza"],
+      "answer": "Raiva"
+    },
+    {
+      "id": 47,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "en",
+      "question": "What is the opposite of the word 'happy'?",
+      "options": ["Sad", "Angry", "Tired", "Excited"],
+      "answer": "Sad"
+    },
+    {
+      "id": 48,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "es",
+      "question": "¿Cuál es el antónimo de la palabra 'bueno'?",
+      "options": ["Malo", "Feo", "Grande", "Nuevo"],
+      "answer": "Malo"
+    },
+    {
+      "id": 49,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a palavra em português que significa 'tooth' em inglês?",
+      "options": ["Dente", "Cérebro", "Olho", "Nariz"],
+      "answer": "Dente"
+    },
+    {
+      "id": 50,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "en",
+      "question": "What is the Spanish word for 'book'?",
+      "options": ["Libro", "Perro", "Gato", "Casa"],
+      "answer": "Libro"
+    },
+    {
+      "id": 51,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "es",
+      "question": "¿Cuál es el significado de la palabra 'gato'?",
+      "options": ["Perro", "Ratón", "Pájaro", "Gato"],
+      "answer": "Gato"
+    },
+    {
+      "id": 52,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a tradução para o inglês da frase 'Eu amo você'?",
+      "options": ["I love you", "I hate you", "I miss you", "I need you"],
+      "answer": "I love you"
+    },
+    {
+      "id": 53,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "en",
+      "question": "What is the Portuguese word for 'hello'?",
+      "options": ["Hola", "Bonjour", "Ciao", "Olá"],
+      "answer": "Olá"
+    },
+    {
+      "id": 54,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "es",
+      "question": "¿Cuál es el verbo en la frase 'Yo como una manzana'?",
+      "options": ["Yo", "como", "una", "manzana"],
+      "answer": "como"
+    },
+    {
+      "id": 55,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "en",
+      "question": "What is the plural of the word 'child'?",
+      "options": ["Childs", "Childrens", "Childen", "Children"],
+      "answer": "Children"
+    },
+    {
+      "id": 56,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "en",
+      "question": "What is the Portuguese word for 'thank you'?",
+      "options": ["Obrigado", "Gracias", "Merci", "Thank you"],
+      "answer": "Obrigado"
+    },
+    {
+      "id": 57,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "es",
+      "question": "¿Cuál es el plural de la palabra 'perro'?",
+      "options": ["Perros", "Perroes", "Perres", "Perós"],
+      "answer": "Perros"
+    },
+    {
+      "id": 58,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "pt",
+      "question": "Qual é a tradução para o inglês da palavra 'água'?",
+      "options": ["Water", "Fire", "Air", "Earth"],
+      "answer": "Water"
+    },
+    {
+      "id": 59,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "en",
+      "question": "What is the Spanish word for 'house'?",
+      "options": ["Casa", "Carro", "Bicicleta", "Avión"],
+      "answer": "Casa"
+    },
+    {
+      "id": 60,
+      "category": "Conhecimento Geral",
+      "sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+      "fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
+      "language": "es",
+      "question": "¿Cuál es el adjetivo en la frase 'La casa es grande'?",
+      "options": ["La", "casa", "es", "grande"],
+      "answer": "grande"
+    }
+  ]
 }
