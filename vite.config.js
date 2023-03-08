@@ -70,6 +70,7 @@ export default defineConfig({
       },
     }),
   ],
+  workbox: {
   precache: {
     include: [
       'src/assets/imgs/*.png',
@@ -78,6 +79,7 @@ export default defineConfig({
       'src/assets/imgs/*.svg',
     ],
   },
+},
   test: {
     globals: true,
     environment: "jsdom",
