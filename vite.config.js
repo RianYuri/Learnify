@@ -68,16 +68,19 @@ export default defineConfig({
           }
         ],  
       },
-      workbox:{
-        precache:{
-          include[
+      workbox: {
+        // other options...
+        precache: {
+          include: [
+            '/index.html',
             '/assets/imgs/*.png',
             '/assets/imgs/*.jpg',
             '/assets/imgs/*.jpeg',
             '/assets/imgs/*.svg',
-          ]
-        }
-      }
+          ],
+          // other options...
+        },
+      },
     }),
   ],
 
