@@ -44,7 +44,7 @@ export const Section = styled.section`
   justify-content: center;
   align-items: center;
   @media (max-width: 813px) {
-    border-radius: 40px 40px 0px 0px;
+    border-radius: 44px 44px 0px 0px;
     padding: 40px 40px 0px 40px;
     justify-content: flex-start;
   }

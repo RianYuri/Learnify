@@ -37,6 +37,7 @@ border-radius: 204px 204px 0px 0px;
     gap: 20px;
     @media (max-width: 768px) {
 height: 90%;
+border-radius: 44px 44px 0px 0px;
 
 }
 `
