@@ -89,45 +89,9 @@ export default defineConfig({
               }
             }
           },
-          {
-            urlPattern: /.*\.(js|css)/,
-            handler: 'StaleWhileRevalidate',
-            options: {
-              cacheName: 'static-resources-cache'
-            }
-          },
-          {
-            urlPattern: /\/api\/(.*)/,
-            handler: 'NetworkFirst',
-            options: {
-              cacheName: 'api-cache',
-              networkTimeoutSeconds: 5,
-              expiration: {
-                maxAgeSeconds: 60 * 60 * 24 // 1 day
-              }
-            }
-          }
         ],
         cleanupOutdatedCaches: true,
       }
     }),
   ],
-  workbox: {
-    precache: {
-      include: [
-        './src/assets/img/**'
-      ],
-    },
-    // This is the service worker with the combined offline experience (Offline page + Offline copy of pages)
-    // Use Stale-while-revalidate strategy by default
-    routing: {
-      registerRoute: new RegExp('/*'),
-      handler: new workbox.strategies.StaleWhileRevalidate({
-        cacheName: 'offline-page'
-      }),
-    },
-    // Use navigation preload to boost the performance of
-    // navigating to a new page while offline
-    navigationPreload: true,
-  },
 });
