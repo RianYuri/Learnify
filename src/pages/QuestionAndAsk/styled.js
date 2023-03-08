@@ -11,7 +11,7 @@ gap: 10px;
 `
 export const Question = styled.h4`
 font-family: var(--font-titles);
-width: 50%;
+max-width: 50%;
 font-style: normal;
 font-weight: 700;
 font-size: 27px;
