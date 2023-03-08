@@ -6,7 +6,10 @@ import QuickStart from "../pages/QuickStart";
 import { userDataContext } from "../contexts/UserDataContext";
 import React from "react";
 import { questionDataContext } from "../contexts/QuestionsDataContext";
+import { categorySelectedContext } from "../contexts/CategorySelectedContext";
+//mocks
 import { mockedQuestionsData } from "./mocks/QuestionsDataMock";
+import { mockedCategorySelected } from "./mocks/CategorySelectedMock";
 
 const setUserDataMock = vi.fn();
 const userDataMock = { userName: "" };
@@ -16,6 +19,7 @@ const mockContextValue = {
 };
 
 const componentRender = (
+  <categorySelectedContext.Provider value={mockedCategorySelected}>
   <questionDataContext.Provider value={mockedQuestionsData}>
   <userDataContext.Provider value={mockContextValue}>
     <BrowserRouter>
@@ -23,6 +27,7 @@ const componentRender = (
     </BrowserRouter>
   </userDataContext.Provider>
   </questionDataContext.Provider>
+  </categorySelectedContext.Provider>
 );
 
 describe("QuickStart", () => {
