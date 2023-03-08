@@ -71,17 +71,6 @@ export default defineConfig({
       workbox: {
         runtimeCaching: [
           {
-            urlPattern: /^https:\/\/golearnify\.app/,
-            handler: 'networkFirst',
-            options: {
-              cacheName: 'api-cache',
-              expiration: {
-                maxEntries: 50,
-                maxAgeSeconds: 24 * 60 * 60 * 7,
-              },
-            },
-          },
-          {
             urlPattern: /\.(png|svg|jpg|jpeg)$/,
             handler: 'cacheFirst',
             options: {
