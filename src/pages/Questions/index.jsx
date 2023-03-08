@@ -12,25 +12,24 @@ import { useNavigate } from "react-router-dom";
 import { questionDataContext } from "../../contexts/QuestionsDataContext";
 import { userDataContext } from "../../contexts/UserDataContext";
 
-let QuestionId = localStorage.getItem("questionId") ? +localStorage.getItem("questionId") : 0;
 const Questions = () => {
-		/* Se não tiver o nome do usuário, redireciona para a página inicial */
-		const { userData, setUserData } = useContext(
-			userDataContext.userName !== ""
-				? userDataContext
-				: {
-						userName: localStorage.getItem("userName"),
-				  }
-		);
-		useEffect(() => {
-			if (userData.userName === "") {
-		  const navigate = useNavigate();
-				navigate("/");
-			}
-		}, []);
+	/* Se não tiver o nome do usuário, redireciona para a página inicial */
+	const { userData, setUserData } = useContext(
+		userDataContext.userName !== ""
+			? userDataContext
+			: {
+					userName: localStorage.getItem("userName"),
+			  }
+	);
+	useEffect(() => {
+		if (userData.userName === "") {
+			const navigate = useNavigate();
+			navigate("/");
+		}
+	}, []);
 	const { categorySelected } = useContext(categorySelectedContext);
 
-	const { validateAnswer, questions } = useContext(questionDataContext);
+	const { validateAnswer, questions, questionId: QuestionId, setQuestionId } = useContext(questionDataContext);
 	const [answerData, setAnswerData] = useState({});
 	const [selectQuestionIsTrue, setSelectQuestionIsTrue] = useState();
 	const [progress, setProgress] = useState(QuestionId === 0 ? 10 : QuestionId * 10);
@@ -51,14 +50,14 @@ const Questions = () => {
 		if (!selectQuestionIsTrue === true) {
 			validateAnswer(answerData);
 			setProgress(progress + 10);
-			QuestionId = QuestionId + 1;
-			localStorage.setItem("questionId", QuestionId);
+			setQuestionId(QuestionId + 1);
+			localStorage.setItem("questionId", QuestionId + 1);
 		}
 	};
 	useEffect(() => {
 		if (questions.length === 10) {
-			QuestionId = 0;
-			localStorage.setItem("questionId", QuestionId);
+			setQuestionId(0);
+			localStorage.setItem("questionId", 0);
 			navigate("/results");
 		}
 	}, [questions.length]);

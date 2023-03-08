@@ -1,10 +1,13 @@
 import { createContext, useState, useMemo } from "react";
 
-const questionsDefault = localStorage.getItem("questions") ? JSON.parse(localStorage.getItem("questions")) : [];
-
 const questionDataContext = createContext();
 const QuestionDataProvider = ({ children }) => {
-	const [questions, setQuestions] = useState(questionsDefault);
+	const [questions, setQuestions] = useState(
+		localStorage.getItem("questions") ? JSON.parse(localStorage.getItem("questions")) : []
+	);
+	const [questionId, setQuestionId] = useState(
+		localStorage.getItem("questionId") ? +localStorage.getItem("questionId") : 0
+	);
 
 	const userPoints = useMemo(() => {
 		let points = 0;
@@ -28,7 +31,9 @@ const QuestionDataProvider = ({ children }) => {
 	};
 
 	return (
-		<questionDataContext.Provider value={{ questions, validateAnswer, userPoints, setQuestions }}>
+		<questionDataContext.Provider
+			value={{ questions, validateAnswer, userPoints, setQuestions, questionId, setQuestionId }}
+		>
 			{children}
 		</questionDataContext.Provider>
 	);
