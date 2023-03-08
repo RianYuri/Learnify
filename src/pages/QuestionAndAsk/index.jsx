@@ -1,6 +1,8 @@
 import { useEffect, useState, useContext } from "react";
 
 import { categorySelectedContext } from "../../contexts/CategorySelectedContext";
+import { userDataContext } from "../../contexts/UserDataContext";
+import { useNavigate } from "react-router-dom";
 
 import {
 	ArticleQuestions,
@@ -13,7 +15,20 @@ import {
 	NumberQuestion,
 } from "./styled";
 const QuestionAndAsk = ({clickQuestionIsTrue,QuestionId, handleAnswer }) => {
-
+	/* Se não tiver o nome do usuário, redireciona para a página inicial */
+	const { userData, setUserData } = useContext(
+		userDataContext.userName !== ""
+			? userDataContext
+			: {
+					userName: localStorage.getItem("userName"),
+			  }
+	);
+	useEffect(() => {
+		if (userData.userName === "") {
+      const navigate = useNavigate();
+			navigate("/");
+		}
+	}, []);
   const [questionId, setQuestionId] = useState(QuestionId);
   const [clickNextQuestionsIsTrue, setClickNextQuestionsIsTrue] = useState(false)
 const [selectAsk, setSelectAsk] = useState();

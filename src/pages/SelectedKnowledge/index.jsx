@@ -33,9 +33,24 @@ import illMath from "../../assets/imgs/math-illustration.svg";
 import illLaw from "../../assets/imgs/law-illustration.svg";
 import illProg from "../../assets/imgs/prog-illustration.svg";
 import illAll from "../../assets/imgs/all-illustration.svg";
+import { userDataContext } from "../../contexts/UserDataContext";
 
 // Codigo
 const SelectedKnowledge = () => {
+  		/* Se não tiver o nome do usuário, redireciona para a página inicial */
+      const { userData, setUserData } = useContext(
+        userDataContext.userName !== ""
+          ? userDataContext
+          : {
+              userName: localStorage.getItem("userName"),
+            }
+      );
+      useEffect(() => {
+        if (userData.userName === "") {
+        const navigate = useNavigate();
+          navigate("/");
+        }
+      }, []);
   const { categorySelected } = useContext(categorySelectedContext);
 const [imageLanguage, setImageLanguage] = useState()
 useEffect(() => {

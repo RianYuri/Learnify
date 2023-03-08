@@ -25,7 +25,13 @@ const Results = () => {
     useContext(questionDataContext);
 
   const [showResults, setShowResults] = useState(false);
-
+  
+	/* Se não tiver o nome do usuário, redireciona para a página inicial */
+  useEffect(() => {
+    if (userData.userName === "") {
+      navigate("/");
+    }
+  }, []);
   const letterOptions = ["A", "B", "C", "D"];
 
   const handleNavigate = (path) => {

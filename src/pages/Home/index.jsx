@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import Styles from "./styled.js";
 import { categorySelectedContext } from "../../contexts/CategorySelectedContext.jsx";
 import { userDataContext } from "../../contexts/UserDataContext.jsx";
@@ -15,7 +15,7 @@ import Button from "../../global/Button.js";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
-	const { categorySelected, setCategorySelected } = useContext(categorySelectedContext);
+	/* Se não tiver o nome do usuário, redireciona para a página inicial */
 	const { userData, setUserData } = useContext(
 		userDataContext.userName !== ""
 			? userDataContext
@@ -23,6 +23,13 @@ const Home = () => {
 					userName: localStorage.getItem("userName"),
 			  }
 	);
+	useEffect(() => {
+		if (userData.userName === "") {
+			navigate("/");
+		}
+	}, []);
+	const { categorySelected, setCategorySelected } = useContext(categorySelectedContext);
+
 	const navigate = useNavigate();
 	const handleSelectCategory = (category) => {
 		try {
@@ -43,6 +50,8 @@ const Home = () => {
 			navigate("/select-knowledge");
 		}
 	};
+
+
 	return (
 		<Styles>
 			<section className="home__container">

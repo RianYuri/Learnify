@@ -10,8 +10,24 @@ import ArrowRightEnable from "../../assets/imgs/arrow-right-enable.svg";
 import QuestionAndAsk from "../QuestionAndAsk";
 import { useNavigate } from "react-router-dom";
 import { questionDataContext } from "../../contexts/QuestionsDataContext";
+import { userDataContext } from "../../contexts/UserDataContext";
+
 let QuestionId = localStorage.getItem("questionId") ? +localStorage.getItem("questionId") : 0;
 const Questions = () => {
+		/* Se não tiver o nome do usuário, redireciona para a página inicial */
+		const { userData, setUserData } = useContext(
+			userDataContext.userName !== ""
+				? userDataContext
+				: {
+						userName: localStorage.getItem("userName"),
+				  }
+		);
+		useEffect(() => {
+			if (userData.userName === "") {
+		  const navigate = useNavigate();
+				navigate("/");
+			}
+		}, []);
 	const { categorySelected } = useContext(categorySelectedContext);
 
 	const { validateAnswer, questions } = useContext(questionDataContext);
