@@ -22,7 +22,7 @@ text-align: center;
 padding-bottom: 20px;
 color: var(--dark-color);
 @media (max-width: 768px) {
-    width: 100%;
+    max-width: 100%;
 }
 `
 export const ArticleAB = styled.article`
