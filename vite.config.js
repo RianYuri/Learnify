@@ -73,10 +73,10 @@ export default defineConfig({
   workbox: {
     precache: {
       include: [
-        './src/assets/imgs/*.svg',
+        './src/assets/img/**'
       ],
     },
-},
+  },
   test: {
     globals: true,
     environment: "jsdom",
