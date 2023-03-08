@@ -13,10 +13,8 @@ import illProg from "../../assets/imgs/prog-illustration.svg";
 import illAll from "../../assets/imgs/all-illustration.svg";
 import Button from "../../global/Button.js";
 import { useNavigate } from "react-router-dom";
-import { usePWA } from 'react-use-pwa';
 
 const Home = () => {
-  const { cachedAssets } = usePWA();
 	const { categorySelected, setCategorySelected } = useContext(categorySelectedContext);
 	const { userData, setUserData } = useContext(
 		userDataContext.userName !== ""
@@ -53,7 +51,7 @@ const Home = () => {
 				<div className="square type-3"></div>
 				<div className="square type-4"></div>
 				<header className="heading">
-					<img className="heading__logo" src={fullLogo || cachedAssets['/imgs/logo-full.svg']} alt='Logo do Learnify' />
+					<img className="heading__logo" src={fullLogo} alt="Logo do LearniFy" />
 					<h1 className="home__title">Olá, {userData.userName}</h1>
 					<h2 className="home__subtitle">Vamos testar os seus conhecimentos?</h2>
 				</header>
