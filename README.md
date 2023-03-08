@@ -28,5 +28,5 @@ Also, you can access via QR code:
 ## Testing
  You can download and install the project to test. The files are located at `./src/test`. Test with:
 ```bash
-npm run test
+npm run test 
 ```
