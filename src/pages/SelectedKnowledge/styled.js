@@ -160,7 +160,7 @@ export const ImageCategory = styled.img`
     width: 88px;
     height: 73px;
     position: absolute;
-    top: 33vh;
+    top: 31vh;
     right: 8vw;
   }
 `;
