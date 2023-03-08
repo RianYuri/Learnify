@@ -1,6 +1,22 @@
+import { vi } from "vitest";
+
 const validateAnswerMock = vi.fn();
-const questionsMock = [];
+const questionDataContext = [
+  {
+    id: 1,
+    userAnswer: "A",
+    correctAnswer: "A",
+  },
+  {
+    id: 2,
+    userAnswer: "B",
+    correctAnswer: "C",
+  },
+];
+
 export const mockedQuestionsData = {
   validateAnswer: validateAnswerMock,
-  questions: questionsMock,
+  questions: questionDataContext,
+  userPoints: 1,
+  setQuestions: () => "",
 };
