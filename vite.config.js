@@ -16,6 +16,7 @@ export default defineConfig({
         description: 'Seu app de quiz para aprender e se divertir',  
         theme_color: '#ffffff',  
         start_url: '/',  
+        scope: '/',
         display: 'standalone',
         orientation: 'portrait',
         "screenshots": [
