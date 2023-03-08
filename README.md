@@ -18,7 +18,7 @@ The current project language is Brazilian Portuguese, but is possible to add oth
  
 Also, you can access via QR code:
 <p align="center">
- <img src="https://user-images.githubusercontent.com/104948713/223845453-0ab5df73-a1bb-4a00-9de7-c5f848b59400.jpeg">
+ <img src="https://user-images.githubusercontent.com/104948713/223845453-0ab5df73-a1bb-4a00-9de7-c5f848b59400.jpeg">  
 </p>
 
 ## Technologies used
