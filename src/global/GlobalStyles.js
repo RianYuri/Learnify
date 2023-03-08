@@ -109,7 +109,7 @@ const GlobalStyles = createGlobalStyle`
         --primary-disabled: rgba(50, 50, 50, 0.05);
         --yellow-color: #FFFA69;
         --yellow-dark-color: #FFF71B;
-        --red-color: #FF5E67;
+        --red-color: #BF47E6;
         --red-dark-color: #FE4B56;
         --green-color: #37F589;
         --orange-color: #FF9B26;

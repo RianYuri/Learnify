@@ -1,9 +1,23 @@
 import styled from "styled-components";
-
+const themeKnowledge = (knowledge) => {
+    switch (knowledge) {
+      case "Matemática":
+        return "red";
+      case "Linguagens":
+        return "yellow";
+        case "Direito":
+        return "orange";
+      case "Programação":
+        return "light-blue";
+        case "Conhecimento Geral":
+          return "primary";
+    }
+  };
+  
 export const Main = styled.main`
 width: 100%;
 height: 100vh;
-background-color: var(--yellow-color);
+background-color: var(--${(props) => themeKnowledge(props.category)}-color);
 display: flex;
 justify-content: flex-end;
 align-items: center;

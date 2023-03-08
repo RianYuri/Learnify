@@ -1,4 +1,6 @@
 import { useContext, useEffect, useState } from "react";
+import { categorySelectedContext } from "../../contexts/CategorySelectedContext";
+
 //Import Styles
 import { Main, SectionComponents, ArticleNext, NextPage, ArrowDisable, ProgressBarQuestions } from "./styled";
 // Import image
@@ -10,6 +12,8 @@ import { useNavigate } from "react-router-dom";
 import { questionDataContext } from "../../contexts/QuestionsDataContext";
 let QuestionId = localStorage.getItem("questionId") ? +localStorage.getItem("questionId") : 0;
 const Questions = () => {
+	const { categorySelected } = useContext(categorySelectedContext);
+
 	const { validateAnswer, questions } = useContext(questionDataContext);
 	const [answerData, setAnswerData] = useState({});
 	const [selectQuestionIsTrue, setSelectQuestionIsTrue] = useState();
@@ -44,7 +48,7 @@ const Questions = () => {
 	}, [questions.length]);
 
 	return (
-		<Main>
+		<Main category={categorySelected[0].category}>
 			<SectionComponents>
 				<QuestionAndAsk
 					QuestionId={QuestionId}
