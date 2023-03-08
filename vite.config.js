@@ -71,14 +71,11 @@ export default defineConfig({
     }),
   ],
   workbox: {
-  precache: {
-    include: [
-      'src/assets/imgs/*.png',
-      'src/assets/imgs/*.jpg',
-      'src/assets/imgs/*.jpeg',
-      'src/assets/imgs/*.svg',
-    ],
-  },
+    precache: {
+      include: [
+        './src/assets/imgs/*.svg',
+      ],
+    },
 },
   test: {
     globals: true,
