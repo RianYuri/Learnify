@@ -1,6 +1,7 @@
 const setCategoryMock = vi.fn();
 const categorySelectedMock = [
   {
+    id: 1,
     category: "Linguagens",
     fieldStudy: ["Português", "Inglês", "Espanhol"],
     language: "pt",
