@@ -680,12 +680,12 @@
 			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
 			"fieldStudy": ["Lógica","Linguagens","Estrutura de dados"],
 			"language": "pt",
-			"question": "Qual é a diferença entre uma linguagem de programação compilada e uma interpretada?",
+			"question": "Qual é o resultado da seguinte expressão booleana? var x = true; var y = false;var z = (x && y) || (!x && !y);",
 			"options": [
-				"A linguagem compilada é mais rápida, mas a interpretada é mais fácil de aprender",
-				"A linguagem interpretada é mais rápida, mas a compilada é mais fácil de aprender",
-				"A linguagem compilada é transformada em código de máquina antes da execução, enquanto a interpretada é executada linha a linha",
-				"A linguagem interpretada é transformada em código de máquina antes da execução, enquanto a compilada é executada linha a linha"
+				"true",
+				"false",
+				"undefined",
+				"null"
 			],
 			"answer": "A linguagem compilada é transformada em código de máquina antes da execução, enquanto a interpretada é executada linha a linha"
 		},
@@ -891,13 +891,14 @@
 			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
 			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
-			"question": "Qual é a diferença entre uma linguagem de programação compilada e uma interpretada?",
+			"question": "Qual é o resultado da seguinte expressão booleana? var x = true; var y = false;var z = (x && y) || (!x && !y);",
 			"options": [
-				"A linguagem compilada é mais rápida, mas interpretada é mais fácil de aprender",
-				"A linguagem compilada é transformada em código de máquina antes da execução, enquanto a interpretada é executada linha a linha",
-				"A linguagem interpretada é transformada em código de máquina antes da execução, enquanto a compilada é executada linha a linha"
+				" true",
+				"false",
+				"undefined",
+				"null"
 			],
-			"answer": "A linguagem compilada é transformada em código de máquina antes da execução, enquanto a interpretada é executada linha a linha"
+			"answer": "false"
 		},
 		{
 			"id": 15,
