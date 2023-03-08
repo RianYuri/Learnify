@@ -46,7 +46,7 @@ const Home = () => {
 	return (
 		<Styles>
             {/* Cache imports */}
-            <img src={fullLogo} style={{display: 'none'}} />
+            <img src={require("../../assets/imgs/logo-full.svg")} style={{display: 'none'}} />
             <img src={arrowIcon1} style={{display: 'none'}} />
             <img src={arrowIcon2} style={{display: 'none'}} />
             <img src={illLanguages} style={{display: 'none'}} />
