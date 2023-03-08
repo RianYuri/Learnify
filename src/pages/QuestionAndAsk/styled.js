@@ -1,12 +1,14 @@
 import styled from "styled-components";
 export const ArticleQuestions = styled.article`
 width: 100%;
-height: 100%;
+height: fit-content;
 display: flex;
 justify-content: flex-start;
 align-items: center;
 flex-direction: column;
 gap: 10px;
+
+
 
 `
 export const Question = styled.h4`

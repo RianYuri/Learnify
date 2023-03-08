@@ -33,7 +33,7 @@ flex-direction: column;
 align-items: center;
 border-radius: 40px 40px 0px 0px;
     padding:40px 40px 0px 40px;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
     @media (max-width: 768px) {
 height: 90%;
