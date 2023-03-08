@@ -31,7 +31,7 @@ background-color: var(--light-color);
 display: flex;
 flex-direction: column;
 align-items: center;
-border-radius: 40px 40px 0px 0px;
+border-radius: 204px 204px 0px 0px;
     padding:40px 40px 0px 40px;
     justify-content: flex-start;
     gap: 20px;

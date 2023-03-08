@@ -38,7 +38,7 @@ export const Section = styled.section`
   width: 100%;
   height: 70%;
   background-color: var(--light-color);
-  border-radius: 180px 180px 0px 0px;
+  border-radius: 204px 204px 0px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
