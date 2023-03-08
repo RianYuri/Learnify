@@ -5,6 +5,8 @@ import { describe, it, expect, vi } from "vitest";
 import QuickStart from "../pages/QuickStart";
 import { userDataContext } from "../contexts/UserDataContext";
 import React from "react";
+import { questionDataContext } from "../contexts/QuestionsDataContext";
+import { mockedQuestionsData } from "./mocks/QuestionsDataMock";
 
 const setUserDataMock = vi.fn();
 const userDataMock = { userName: "" };
@@ -14,11 +16,13 @@ const mockContextValue = {
 };
 
 const componentRender = (
+  <questionDataContext.Provider value={mockedQuestionsData}>
   <userDataContext.Provider value={mockContextValue}>
     <BrowserRouter>
       <QuickStart />
     </BrowserRouter>
   </userDataContext.Provider>
+  </questionDataContext.Provider>
 );
 
 describe("QuickStart", () => {
