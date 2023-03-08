@@ -67,10 +67,17 @@ export default defineConfig({
             purpose: "maskable"
           }
         ],  
-      },  
-      workbox: {
-        
       },
+      workbox:{
+        precache:{
+          include[
+            '/assets/imgs/*.png',
+            '/assets/imgs/*.jpg',
+            '/assets/imgs/*.jpeg',
+            '/assets/imgs/*.svg',
+          ]
+        }
+      }
     }),
   ],
 
