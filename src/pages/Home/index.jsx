@@ -51,7 +51,7 @@ const Home = () => {
 				<div className="square type-3"></div>
 				<div className="square type-4"></div>
 				<header className="heading">
-					<img className="heading__logo" src={fullLogo} alt="Logo do LearniFy" />
+					<img className="heading__logo" src={fullLogo} alt={fullLogo ? 'A':'B'} />
 					<h1 className="home__title">Olá, {userData.userName}</h1>
 					<h2 className="home__subtitle">Vamos testar os seus conhecimentos?</h2>
 				</header>
