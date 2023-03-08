@@ -45,15 +45,6 @@ const Home = () => {
 	};
 	return (
 		<Styles>
-            {/* Cache imports */}
-            <img src={require("../../assets/imgs/logo-full.svg")} style={{display: 'none'}} />
-            <img src={arrowIcon1} style={{display: 'none'}} />
-            <img src={arrowIcon2} style={{display: 'none'}} />
-            <img src={illLanguages} style={{display: 'none'}} />
-            <img src={illMath} style={{display: 'none'}} />
-            <img src={illLaw} style={{display: 'none'}} />
-            <img src={illProg} style={{display: 'none'}} />
-            <img src={illAll} style={{display: 'none'}} />
 			<section className="home__container">
 				<div className="square type-1"></div>
 				<div className="square type-2"></div>
