@@ -14,7 +14,7 @@ The current project language is Brazilian Portuguese, but is possible to add oth
 
 
 ## Link
- You can see the deployment of the application [here](https://golearnify.vercel.app/).
+ You can see the deployment of the application [here](https://golearnify.vercel.app/). 
  
 Also, you can access via QR code:
 <p align="center">
