@@ -23,6 +23,9 @@ const componentRender = (
 );
 
 describe("Results", () => {
+  it("should render component", () => {
+    render(componentRender);
+  });
   it("should renders the correct message and points if user hits less than 6", () => {
     mockedUserDataContext.userData.userName = "Learnify";
     render(componentRender);
