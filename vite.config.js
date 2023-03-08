@@ -76,8 +76,7 @@ export default defineConfig({
         'robots.txt'
       ],
       workbox: {
-        // TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
-        offlineGoogleAnalytics: true,
+        offlineGoogleAnalytics: false,
         runtimeCaching: [
           {
             urlPattern: /.*\.(png|jpg|jpeg|svg|gif)/,
@@ -124,7 +123,7 @@ export default defineConfig({
     routing: {
       registerRoute: new RegExp('/*'),
       handler: new workbox.strategies.StaleWhileRevalidate({
-        cacheName: 'pwabuilder-offline-page'
+        cacheName: 'offline-page'
       }),
     },
     // Use navigation preload to boost the performance of
