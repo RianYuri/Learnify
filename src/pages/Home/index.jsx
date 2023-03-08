@@ -90,6 +90,15 @@ const Home = () => {
 					</div>
 				</div>
 			</section>
+      {/* Cache imports */}
+      <img src="../../assets/imgs/logo-full.svg" style={{display: 'none'}} />
+      <img src="../../assets/imgs/cat-arrow-1.svg" style={{display: 'none'}} />
+      <img src="../../assets/imgs/cat-arrow-2.svg" style={{display: 'none'}} />
+      <img src="../../assets/imgs/languages-illustration.svg" style={{display: 'none'}} />
+      <img src="../../assets/imgs/math-illustration.svg" style={{display: 'none'}} />
+      <img src="../../assets/imgs/law-illustration.svg" style={{display: 'none'}} />
+      <img src="../../assets/imgs/prog-illustration.svg" style={{display: 'none'}} />
+      <img src="../../assets/imgs/all-illustration.svg" style={{display: 'none'}} />
 		</Styles>
 	);
 };
