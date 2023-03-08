@@ -37,6 +37,7 @@ const QuickStart = () => {
 		});
 	};
 	const handleSaveUserName = async () => {
+		if(nameActive.name > 3){
 		try {
 			setUserData({ userName: nameActive.name });
 			localStorage.setItem("userName", nameActive.name);
@@ -44,6 +45,7 @@ const QuickStart = () => {
 			console.log(error);
 		} finally {
 			navigate("/home");
+		}
 		}
 	};
 	return (
