@@ -34,6 +34,7 @@ align-items: center;
 border-radius: 40px 40px 0px 0px;
     padding:40px 40px 0px 40px;
     justify-content: center;
+    gap: 20px;
     @media (max-width: 768px) {
 height: 90%;
 
@@ -49,7 +50,6 @@ justify-content: flex-end;
 align-items: center;
 display: flex;
 flex-direction: row;
-padding: 4% 0%;
 `
 export const NextPage = styled.h4`
 font-family: var(--font-titles);
