@@ -69,19 +69,7 @@ export default defineConfig({
         ],  
       },  
       workbox: {
-        runtimeCaching: [
-          {
-            urlPattern: /\.(png|svg|jpg|jpeg)$/,
-            handler: 'cacheFirst',
-            options: {
-              cacheName: 'image-cache',
-              expiration: {
-                maxEntries: 50,
-                maxAgeSeconds: 24 * 60 * 60 * 7,
-              },
-            },
-          },
-        ],
+        
       },
     }),
   ],
