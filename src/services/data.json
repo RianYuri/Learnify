@@ -704,8 +704,8 @@
 		{
 			"id": 1,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o antônimo da palavra 'amor'?",
 			"options": ["Odor", "Alegria", "Raiva", "Tristeza"],
@@ -714,8 +714,8 @@
 		{
 			"id": 2,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "en",
 			"question": "What is the opposite of the word 'happy'?",
 			"options": ["Sad", "Angry", "Tired", "Excited"],
@@ -724,8 +724,8 @@
 		{
 			"id": 3,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "es",
 			"question": "¿Cuál es el antónimo de la palabra 'bueno'?",
 			"options": ["Malo", "Feo", "Grande", "Nuevo"],
@@ -734,8 +734,8 @@
 		{
 			"id": 4,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a palavra em português que significa 'tooth' em inglês?",
 			"options": ["Dente", "Cérebro", "Olho", "Nariz"],
@@ -744,8 +744,8 @@
 		{
 			"id": 5,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "en",
 			"question": "What is the Spanish word for 'book'?",
 			"options": ["Libro", "Perro", "Gato", "Casa"],
@@ -754,8 +754,8 @@
 		{
 			"id": 6,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "es",
 			"question": "¿Cuál es el significado de la palabra 'gato'?",
 			"options": ["Perro", "Ratón", "Pájaro", "Gato"],
@@ -764,8 +764,8 @@
 		{
 			"id": 7,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a tradução para o inglês da frase 'Eu amo você'?",
 			"options": ["I love you", "I hate you", "I miss you", "I need you"],
@@ -774,8 +774,8 @@
 		{
 			"id": 8,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "en",
 			"question": "What is the Portuguese word for 'hello'?",
 			"options": ["Hola", "Bonjour", "Ciao", "Olá"],
@@ -784,8 +784,8 @@
 		{
 			"id": 9,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "es",
 			"question": "¿Cuál es el verbo en la frase 'Yo como una manzana'?",
 			"options": ["Yo", "como", "una", "manzana"],
@@ -794,8 +794,8 @@
 		{
 			"id": 10,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "en",
 			"question": "What is the plural of the word 'child'?",
 			"options": ["Childs", "Childrens", "Childen", "Children"],
@@ -804,8 +804,8 @@
 		{
 			"id": 11,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "en",
 			"question": "What is the Portuguese word for 'thank you'?",
 			"options": ["Obrigado", "Gracias", "Merci", "Thank you"],
@@ -814,8 +814,8 @@
 		{
 			"id": 12,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "es",
 			"question": "¿Cuál es el plural de la palabra 'perro'?",
 			"options": ["Perros", "Perroes", "Perres", "Perós"],
@@ -824,8 +824,8 @@
 		{
 			"id": 13,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a tradução para o inglês da palavra 'água'?",
 			"options": ["Water", "Fire", "Air", "Earth"],
@@ -834,8 +834,8 @@
 		{
 			"id": 14,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "en",
 			"question": "What is the Spanish word for 'house'?",
 			"options": ["Casa", "Carro", "Bicicleta", "Avión"],
@@ -844,8 +844,8 @@
 		{
 			"id": 15,
 			"category": "Conhecimento Geral",
-			"sobre": "Nesta categoria você encontrará questões de Inglês, Português e Espanhol, descubra seu conhecimento em linguagens e o quão poliglota você é!",
-			"fieldStudy": ["Português", "Inglês", "Espanhol"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "es",
 			"question": "¿Cuál es el adjetivo en la frase 'La casa es grande'?",
 			"options": ["La", "casa", "es", "grande"],
@@ -854,8 +854,8 @@
 		{
 			"id": 16,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "O que significa a sigla STF?",
 			"options": [
@@ -869,8 +869,8 @@
 		{
 			"id": 17,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a lei que instituiu o Código de Defesa do Consumidor no Brasil?",
 			"options": ["Lei nº 8.078/90", "Lei nº 9.876/99", "Lei nº 10.046/01", "Lei nº 11.256/05"],
@@ -879,8 +879,8 @@
 		{
 			"id": 18,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a idade mínima para votar no Brasil?",
 			"options": ["16 anos", "17 anos", "18 anos", "19 anos"],
@@ -889,8 +889,8 @@
 		{
 			"id": 19,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Em que ano foi promulgada a Constituição Federal brasileira?",
 			"options": ["1987", "1988", "1989", "1990"],
@@ -899,8 +899,8 @@
 		{
 			"id": 20,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o número de deputados federais no Brasil?",
 			"options": ["513", "500", "520", "517"],
@@ -909,8 +909,8 @@
 		{
 			"id": 21,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o nome da lei que estabelece as diretrizes e bases da educação nacional?",
 			"options": [
@@ -924,8 +924,8 @@
 		{
 			"id": 22,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o nome da lei que define os crimes de responsabilidade do Presidente da República?",
 			"options": [
@@ -939,8 +939,8 @@
 		{
 			"id": 23,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o artigo da Constituição Federal que garante a liberdade de expressão?",
 			"options": ["Artigo 5º", "Artigo 10º", "Artigo 15º", "Artigo 20º"],
@@ -949,8 +949,8 @@
 		{
 			"id": 24,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a lei que garante o direito à educação?",
 			"options": [
@@ -964,8 +964,8 @@
 		{
 			"id": 25,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a lei que estabelece a jornada máxima de trabalho de 8 horas por dia?",
 			"options": [
@@ -979,8 +979,8 @@
 		{
 			"id": 26,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a lei que protege o consumidor contra práticas abusivas de empresas?",
 			"options": [
@@ -994,8 +994,8 @@
 		{
 			"id": 27,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a lei que prevê punição para o assédio sexual?",
 			"options": ["Lei de Proteção à Mulher", "Lei de Drogas", "Lei de Abuso de Autoridade", "Lei do Assédio Sexual"],
@@ -1004,8 +1004,8 @@
 		{
 			"id": 28,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a lei que estabelece as regras para o uso de medicamentos?",
 			"options": [
@@ -1019,8 +1019,8 @@
 		{
 			"id": 29,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a lei que estabelece as regras para a exploração de petróleo e gás no Brasil?",
 			"options": [
@@ -1034,8 +1034,8 @@
 		{
 			"id": 30,
 			"category": "Conhecimento Geral",
-			"sobre": "Bem-vindo ao nosso quiz de Direito! Teste seus conhecimentos e desafie seus amigos para ver quem sabe mais sobre leis e jurisprudência.",
-			"fieldStudy": ["Leis", "Direitos civis", "Direitos Humanos"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a lei que estabelece as regras para a exploração de petróleo e gás no Brasil?",
 			"options": [
@@ -1049,8 +1049,8 @@
 		{
 			"id": 31,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o valor de x na equação 2x + 3 = 11?",
 			"options": ["3", "4", "5", "6"],
@@ -1059,8 +1059,8 @@
 		{
 			"id": 32,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a solução da equação 5x - 7 = 18?",
 			"options": ["5", "6", "7", "8"],
@@ -1069,9 +1069,8 @@
 		{
 			"id": 33,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o valor de y na equação 4y + 12 = 28?",
 			"options": ["4", "5", "6", "7"],
@@ -1080,8 +1079,8 @@
 		{
 			"id": 34,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a fórmula da área de um triângulo?",
 			"options": ["base x altura", "(base x altura)/2", "(base + altura) x 2", "(base - altura) x 2"],
@@ -1090,8 +1089,8 @@
 		{
 			"id": 35,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a fórmula da circunferência?",
 			"options": ["2 x raio", "raio x raio x pi", "2 x raio x pi", "raio x pi"],
@@ -1100,8 +1099,8 @@
 		{
 			"id": 36,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o nome da figura geométrica que possui 6 lados?",
 			"options": ["Quadrado", "Triângulo", "Hexágono", "Pentágono"],
@@ -1110,8 +1109,8 @@
 		{
 			"id": 37,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o valor do seno de 30 graus?",
 			"options": ["0.5", "0.707", "0.866", "1"],
@@ -1120,8 +1119,8 @@
 		{
 			"id": 38,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o valor do cosseno de 45 graus?",
 			"options": ["0.5", "0.707", "0.866", "1"],
@@ -1130,8 +1129,8 @@
 		{
 			"id": 39,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o valor da tangente de 60 graus?",
 			"options": ["0.5", "0.707", "0.866", "1"],
@@ -1140,8 +1139,8 @@
 		{
 			"id": 40,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a fórmula da função quadrática?",
 			"options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
@@ -1150,8 +1149,8 @@
 		{
 			"id": 41,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a fórmula da função linear?",
 			"options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax"],
@@ -1160,8 +1159,8 @@
 		{
 			"id": 42,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a fórmula da função exponencial?",
 			"options": ["y = ax² + bx + c", "y = ax² + bx", "y = ax² + c", "y = ax²"],
@@ -1170,8 +1169,8 @@
 		{
 			"id": 43,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o resultado da operação 8² - 6²?",
 			"options": ["28", "32", "40", "44"],
@@ -1180,8 +1179,8 @@
 		{
 			"id": 44,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Quantos lados possui um octógono?",
 			"options": ["5", "6", "7", "8"],
@@ -1190,8 +1189,8 @@
 		{
 			"id": 45,
 			"category": "Conhecimento Geral",
-			"sobre": "Resolva equações e problemas para ver se você é um verdadeiro mestre dos números!",
-			"fieldStudy": ["Algebra", "Função", "Geometria"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o resultado da operação 2² x 3²?",
 			"options": ["12", "18", "24", "36"],
@@ -1200,8 +1199,8 @@
 		{
 			"id": 46,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "O que é um algoritmo?",
 			"options": [
@@ -1215,8 +1214,8 @@
 		{
 			"id": 47,
 			"category": "Lógica de Programação",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "O que é um laço de repetição (loop) em programação?",
 			"options": [
@@ -1230,8 +1229,8 @@
 		{
 			"id": 48,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a função do comando 'if' em programação?",
 			"options": [
@@ -1245,8 +1244,8 @@
 		{
 			"id": 49,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "O que é uma variável em programação?",
 			"options": [
@@ -1260,8 +1259,8 @@
 		{
 			"id": 50,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a função do comando 'for' em programação?",
 			"options": [
@@ -1275,8 +1274,8 @@
 		{
 			"id": 51,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "O que é um vetor (array) em programação?",
 			"options": [
@@ -1290,8 +1289,8 @@
 		{
 			"id": 52,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a estrutura de repetição que executa um bloco de código enquanto uma condição for verdadeira?",
 			"options": ["For", "While", "Do While", "If"],
@@ -1300,8 +1299,8 @@
 		{
 			"id": 53,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 
 			"language": "pt",
 			"question": "Qual é a estrutura de repetição que executa um bloco de código pelo menos uma vez e depois enquanto uma condição for verdadeira?",
@@ -1311,8 +1310,8 @@
 		{
 			"id": 54,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 
 			"language": "pt",
 			"question": "Qual é a estrutura de repetição que executa um bloco de código um número determinado de vezes?",
@@ -1322,8 +1321,8 @@
 		{
 			"id": 55,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a estrutura de decisão que executa um bloco de código se uma condição for verdadeira?",
 			"options": ["For", "While", "Do While", "If"],
@@ -1332,8 +1331,8 @@
 		{
 			"id": 56,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é a estrutura de decisão que executa um bloco de código se uma condição for verdadeira e outro bloco de código se a condição for falsa?",
 			"options": ["For", "While", "Do While", "If"],
@@ -1342,8 +1341,8 @@
 		{
 			"id": 57,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "O que significa a sigla SQL?",
 			"options": [
@@ -1357,8 +1356,8 @@
 		{
 			"id": 58,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "O que é uma variável em programação?",
 			"options": [
@@ -1372,8 +1371,8 @@
 		{
 			"id": 59,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "Qual é o resultado da seguinte expressão booleana? var x = true; var y = false;var z = (x && y) || (!x && !y);",
 			"options": ["true", "false", "undefined", "null"],
@@ -1382,8 +1381,8 @@
 		{
 			"id": 60,
 			"category": "Conhecimento Geral",
-			"sobre": "Desafie suas habilidades de codificação neste quiz de Programação!Descubra o quanto você sabe sobre linguagens de programação, lógica e muito mais.",
-			"fieldStudy": ["Lógica", "Linguagens", "Estrutura de dados"],
+			"sobre": "Descubra o quão poliglota, gênio dos números e programador você é!",
+			"fieldStudy": ["Linguagem", "Matemática", "Logica de programação"],
 			"language": "pt",
 			"question": "O que é uma estrutura de repetição em programação?",
 			"options": [
