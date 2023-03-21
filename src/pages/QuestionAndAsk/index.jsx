@@ -62,6 +62,7 @@ const [selectAsk, setSelectAsk] = useState();
     
   }, [clickNextQuestionsIsTrue])
 
+  //Rebeca esteve aqui
   return (
     <ArticleQuestions>
      	<NumberQuestion>{(questionId + 1).toString().padStart(2, "0")}</NumberQuestion>
